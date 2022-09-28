@@ -27,6 +27,7 @@
         <button onclick="submit(value)" value="collection">Submit at Collection</button>
 
     </div>
+    <video></video>
 </body>
 </html>
 <script>
@@ -45,7 +46,7 @@
 
     let count=0
     let addImage=()=>{
-        count++
+        count++ //count==1
         let img=document.createElement('input')
         img.setAttribute('class',`image${count}`)
         img.type="url"
