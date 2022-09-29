@@ -64,38 +64,37 @@
   <div id="banner">
     <img src="https://files.myglamm.com/site-images/original/2240x614mg.jpg" alt="">
   </div>
+
+
+  <div id="glam">
+    <h1>LATEST GLAMM LAUNCHES</h1>
+     <div id="sp1">
+      <div><img src="https://files.myglamm.com/site-images/original/700X488_2.gif" alt=""/>
+        <h2>Pucker up lip balm kit</h2></div>
+      <div><img src="https://files.myglamm.com/site-images/original/mg700x488.jpg" alt=""/>
+        <h2>LIT Lip & Cheek Rouge</h2></div>
+     <div> 
+      <img src="https://files.myglamm.com/site-images/original/Strobing-Cream-700x488.png" alt="" />
+       <h2>Glowing Skin Essential</h2>
+    </div>
+
+    <div> 
+      <img src="https://files.myglamm.com/site-images/original/700x488lgl_1.jpg" alt="" />
+       <h2>LIT Matte About It Lip Color</h2>
+    </div>
+      
+    </div>
+  </div>
+<div id="banner1">
+  <img src="https://files.myglamm.com/site-images/original/Community-Banner-2240-x-344_1.jpg" alt="">
+</div>
+<div id="banner2">
+  <img src="https://files.myglamm.com/site-images/original/TGLF-sept-main-KV-1920x527_2.jpg" alt="">
+</div>
+<div id="banner3">
+  <img src="https://files.myglamm.com/site-images/original/1920x527sk.jpg" alt="">
+</div>
 </body>
 </html>
 
-<script>
-    let slideIndex = 1;
-  
-  showSlides(slideIndex)
-    // Next/previous controls
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-    
-    // Thumbnail image controls
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    
-    function showSlides(n) {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-    }
- 
- showSlides();
-</script>
+<script src="./index.js"></script>

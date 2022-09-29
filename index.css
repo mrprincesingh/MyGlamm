@@ -1,5 +1,6 @@
 body{
     background-color:  rgba(237, 232, 232, 0.75);
+    font-family: din-2014, sans-serif;
 }
 .slideshow-container {
     width: 100%;
@@ -22,7 +23,7 @@ body{
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color:black;
+    color:#333;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -81,7 +82,8 @@ body{
     #spotlight h1{
         font-weight: bold;
         text-decoration:underline 8px solid #FCADAD ;
-        font-family: inherit;
+        font-family:din-2014, sans-serif;
+        color: #333;
     }
     #spotlight #sp{
         display: flex;
@@ -97,7 +99,7 @@ body{
     #spotlight #sp h2{
         margin-top: -84px;
         font-weight: 600;
-        color: black;
+        color: #333;
         background: hsla(0,1%,100%,.75);
         opacity: 0.7;
         padding:26px;  
@@ -113,3 +115,71 @@ body{
        width: 100%;
         
     }
+
+    /* //glam */
+
+    #glam {
+        max-width:100% ;
+        text-align: center;
+        margin-top: 40px;
+        cursor: pointer;
+        /* background-color: #eae5e5; */
+
+    }
+    #glam h1{
+        font-weight: bold;
+        text-decoration:underline 8px solid #FCADAD ;
+        font-family: din-2014,sans-serif;
+        color:#333;
+    }
+    #glam #sp1{
+        display: flex;
+        gap: 10px;
+        margin: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #glam #sp1  img{
+        max-width:96% ;
+        
+    }
+    #glam #sp1 h2{
+        margin-top: -84px;
+        font-weight: 600;
+        color:#333;
+        background: hsla(0,1%,100%,.75);
+        opacity: 0.7;
+        padding:26px;  
+    }
+
+    /* banner2 */
+
+    #banner1{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+   
+    #banner1 img{
+       width: 100%;
+      
+    }
+    #banner2{
+     margin-top: 40px;
+     cursor: pointer;
+    }
+    #banner2 img{
+        width: 100%;
+       
+         
+     }
+     #banner3{
+        margin-top: 40px;
+        cursor: pointer;
+    }
+     #banner3 img{
+        width: 100%;
+         
+     }
+
