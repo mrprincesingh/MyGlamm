@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: din-2014, sans-serif;
+
 }
 ul {
   margin: 0 0 0 400px;
@@ -73,7 +75,6 @@ a:hover {
 #main>h1{
   font-size: 30px;
   margin-top: 17px;
-  font-family: din-2014, sans-serif;
   text-align: center;
 }
 #congrats{
@@ -122,6 +123,61 @@ background-color: none;
 font-size: 20px;
 margin-top: 4px;
 }
+.datadiv3{
+  display: flex;
+  height: 20px;
+}
+.datadiv3 button{
+  margin-left: 50px;
+}
+#earn{
+  display: flex;
+  gap: 400px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  /* font-weight: bold; */
+  /* border: 1px solid red; */
+  padding: 20px;
+  background-color: #dcdcdc;
+}
+#total{
+  font-size: 20px;
+  font-weight: bold;
+}
+#proceed{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+#proceed button{
+  padding: 15px 70px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  
+}
+hr{
+  margin-top: 40px;
+  width: 80%;
+}
+#My{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-weight: bold;
+
+}
+#total{
+  display: flex;
+  gap: 20px;
+}
+
 
 
 

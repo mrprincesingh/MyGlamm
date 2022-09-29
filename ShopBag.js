@@ -2,7 +2,7 @@ let data = [
   {
     title: "MYGLAMM LIT LIQUID MATTE LIPSTICK - SUGAR MAMA",
     brand: "Moringa Oil Enriched Matte Lipstick",
-    price: "395",
+    price: 395,
     color: "red",
     details:
       "You found The One! Trust us, ladies, this liquid matte lipstick will be your new love! The LIT Liquid Matte Lipstick by MyGlamm gives you soft, kiss-proof lips, no smudges or transfers, just pure, intense colour! Best of all, its enriched with Moringa Oil that moisturises and smoothens dry, damaged lips.",
@@ -23,7 +23,7 @@ let data = [
   {
     title: "MYGLAMM LIT LIQUID MATTE LIPSTICK - SUGAR MAMA",
     brand: "Moringa Oil Enriched Matte Lipstick",
-    price: "395",
+    price: 395,
     color: "red",
     details:
       "You found The One! Trust us, ladies, this liquid matte lipstick will be your new love! The LIT Liquid Matte Lipstick by MyGlamm gives you soft, kiss-proof lips, no smudges or transfers, just pure, intense colour! Best of all, its enriched with Moringa Oil that moisturises and smoothens dry, damaged lips.",
@@ -56,26 +56,33 @@ let data = [
 
 // }
 
-console.log("data: ", data);
-let quantity = data.quantity;
+
+let a;
+
+let subTotal=0;
+
+let TotalAmount = document.getElementById('TotalAmount');
 
 function render(data) {
   let container = document.getElementById("container");
   container.innerHTML = null;
+  subTotal=0
 
   data.forEach(function (el, index) {
+    let quantity = el.quantity;
+    console.log("quantity: ", quantity);
     let add = document.createElement("button");
     add.innerText = "+";
 
     add.addEventListener("click", function () {
-      addFunction(data, index);
+      addFunction(el);
     });
 
     let Sub = document.createElement("button");
     Sub.innerText = "-";
 
     Sub.addEventListener("click", function () {
-      SubFunction(data, index);
+      SubFunction(el);
     });
 
     let div = document.createElement("div");
@@ -88,10 +95,14 @@ function render(data) {
     div3.setAttribute("class", "datadiv3");
 
     let div4 = document.createElement("div");
-    div3.setAttribute("class", "datadiv4");
+    div4.setAttribute("class", "datadiv4");
 
     let div5 = document.createElement("div");
     div5.setAttribute("class", "datadiv5");
+
+    let div6 = document.createElement("div");
+    div6.setAttribute("class", "datadiv6");
+
 
     let title1 = document.createElement("h3");
     title1.innerText = el.title;
@@ -102,7 +113,12 @@ function render(data) {
     brand1.setAttribute("class", "brand");
 
     let price1 = document.createElement("h3");
-    price1.innerText = `₹ ${el.price}`;
+
+    a=el.price*quantity;
+    subTotal+=a
+    console.log(a);
+    price1.innerText = `₹ ${a}`;
+
     price1.setAttribute("class", "pricee");
 
     let color1 = document.createElement("p");
@@ -120,53 +136,47 @@ function render(data) {
 
     let quantity1 = document.createElement("h3");
     quantity1.innerText = el.quantity;
-    // console.log("quantity1: ", quantity1);
+
+    let del = document.createElement('button')
+        del.textContent = "x"
+        del.addEventListener("click",function(){
+            removefunc(data,index);
+        });
+
+
 
     div5.append(add, quantity1, Sub);
     div4.append(title1, brand1);
     div2.append(images1, div4, div5);
-    div3.append(price1);
+    div3.append(price1,del);
     div.append(div2, div3);
     container.append(div);
+    
   });
+  TotalAmount.innerText = `₹ ${subTotal}`
 }
 
 render(data);
 
-function addFunction(el, index) {
-  el[index].quantity++;
-
-  // console.log("quantity: ", quantity);
+function addFunction(el) {
+  el.quantity++;
+  console.log("el.quantity: ", el.quantity);
   render(data);
 }
 
-function SubFunction(el, index) {
-  el[index].quantity--;
-  if (el[index].quantity == 0) {
-    removefunc[(el, index)];
+function SubFunction(el) {
+  
+  if (el.quantity == 1) {
+    alert("You Can't set the quantity less then 1")
+  }else{
+    el.quantity--;
   }
   render(data);
 }
 
-const subfunc = (ele, index) => {
-  ele[index].quantity--;
-  if (ele[index].quantity == 0) {
-    removefunc(ele, index);
-  }
-  localStorage.setItem("cart", JSON.stringify(ele));
-  appand(ele);
-};
 
-//   let quantity = document.createElement('h3')
-//   quantity.textContent = ele.quantity;
-// let del = document.createElement('button')
-//   del.textContent = "x"
-//   del.addEventListener("click",function(){
-//       removefunc(data,index);
-//   });
-
-const removefunc = (data, index) => {
+let removefunc = (data, index) => {
   data.splice(index, 1);
-  localStorage.setItem("cart", JSON.stringify(data));
-  appand(data);
+  // localStorage.setItem("cart", JSON.stringify(data));
+  render(data);
 };
