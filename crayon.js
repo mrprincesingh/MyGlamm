@@ -19,9 +19,19 @@ getdata()
 
       if(type=="CRAYON LIPSTICK"){
         let div = document.createElement("div")
+        let div2 = document.createElement("div")
+        div2.setAttribute("id", "tag")
+
         div.onclick = ()=>{
             selectfunc(title,brand,price,color,details,type,rating,image,id)
         }
+        let strick = document.createElement("p")
+        strick.setAttribute("class", "strick")
+        strick.innerText = `₹ 1000`
+        strick.style.fontSize = "30px"
+        strick.style.color ="gray"
+
+        strick.style.textDecoration = "line-through"
         let title1 = document.createElement("h3")
         title1.setAttribute("class", "title")
         title1.innerText = title;
@@ -37,8 +47,9 @@ getdata()
         price1.setAttribute("class", "price")
         price1.innerText = `₹ ${price}`;
         price1.style.fontSize = "30px"
-
-        div.append(images1,title1,brand1,price1)
+        
+        div2.append(price1,strick)
+        div.append(images1,title1,brand1,div2)
         container.append(div)
       }
        

@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/makeup"
+const url = "http://localhost:3000/haircare"
 
    let getdata = async ()=>{
     let res = await fetch(`${url}`)
