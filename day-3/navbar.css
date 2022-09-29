@@ -1,0 +1,461 @@
+#head{
+    display:grid;
+    height:40px;
+    width:100%;
+    /* border:1px solid black; */
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(255, 233, 237);
+
+}
+#head>#flex{
+    display:grid;
+    display:flex;
+    gap:35px; 
+    margin-left:35px; ;
+    font-weight: bold;
+
+
+}
+#flex>button{
+    border:none;
+    background-color: rgb(255, 233, 237);
+    color:rgb(233, 122, 140);
+    font-weight: bold;
+    
+}
+#btn{
+    height:40px;
+    margin-right:35px; ;
+    border:none;
+    background-color: rgb(255, 233, 237);
+    font-weight: bold;
+    
+}
+#head2{
+    display:grid;
+    height: 50px;
+    width: 100%;
+    /* border:1px solid black; */
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+}
+#img{
+  
+}
+#part1{
+    display: grid;
+  margin-left: 35px;
+    display:flex;
+    gap:50px;
+}
+#search{
+    height:40px;
+    width:500px;
+    border:0.2px solid;
+    border-radius: 10px;
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    background-color: rgb(250 250 250/var(--tw-bg-opacity));
+   font-weight: bolder;
+}
+#img2{
+    height:40px;
+  
+}
+#img3{
+    height:40px;
+}
+#part2{
+    display: grid;
+    display:flex;
+    gap:40px;
+    margin-right:35px;
+}
+/* #img4{
+    height:40px;
+    background-color: rgb(255, 233, 237); ;
+} */
+/* -------------------------------------------------------------- */
+#head3{
+    display:grid;
+    height:50px;
+    width:100%;
+    /* border:1px solid; */
+    display:flex;
+    gap:40px;
+   
+  
+}
+#home{
+    display:grid;
+     margin-left:35px;
+     border:none;
+
+}
+#home>button{
+    border:none;
+    background:white;
+    /* font-weight: bold; */
+}
+.makeup{
+    display:grid; 
+    border:none;
+}
+.makeup>button{
+    border:none;
+    background:white;
+    font-weight: bold;
+}
+.haircare{
+    display:grid; 
+    border:none;
+}
+.haircare>button{
+    border:none;
+    background:white;
+    /* font-weight: bold; */
+    
+}
+.skincare{
+    display:grid; 
+    border:none;
+}
+.skincare>button{
+    border:none;
+    background:white;
+    /* font-weight: bold; */
+}
+.sanitiz{
+    display:grid; 
+    border:none;
+}
+.sanitiz>button{
+    border:none;
+    background:white;
+    /* font-weight: bold; */
+}
+.colection{
+    display:grid; 
+    border:none;
+}
+.colection>button{
+    border:none;
+    background:white;
+    /* font-weight: bold; */
+}
+#rewards{
+    display:grid; 
+    border:none;
+}
+#rewards>button{
+    border:none;
+    background:white;
+     /* font-weight: bold; */
+}
+.studio{
+    display:grid; 
+    border:none;
+}
+.studio>button{
+    border:none;
+    background:white;
+    /* font-weight: bold; */
+}
+#offers{
+    display:grid; 
+    border:none;
+}
+#offers>button{
+    border:none;
+    background:white;
+    /* font-weight: bold; */
+}
+.dropbtn {
+   background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color:white;
+    color:rgb(187, 95, 110);
+}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: white;}
+/* ------------------------------------------------------------ */
+.hairbtn {
+    background-color: white;
+     color: black;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+   }
+   
+   .haircare{
+     position: relative;
+     display: inline-block;
+   }
+   
+   .hair-content {
+     display: none;
+     position: absolute;
+     background-color:white;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+   
+   }
+   
+   .hair-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+   }
+   
+   .hair-content a:hover {
+     background-color:white;
+     color:rgb(187, 95, 110);
+ }
+   
+   .haircare:hover .hair-content {display: block;}
+   
+   .haircare:hover .hairbtn {background-color: white;}
+/* -------------------------------------------------------------------------- */
+.skinbtn {
+    background-color: white;
+     color: black;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+   }
+   
+   .skincare{
+     position: relative;
+     display: inline-block;
+   }
+   
+   .skin-content {
+     display: none;
+     position: absolute;
+     background-color:white;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+   
+   }
+   
+   .skin-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+   }
+   
+   .skin-content a:hover {
+     background-color:white;
+     color:rgb(187, 95, 110);
+ }
+   
+   .skincare:hover .skin-content {display: block;}
+   
+   .skincare:hover .skinbtn {background-color: white;}
+   /* --------------------------------------------------------------------- */
+   .sanitizbtn {
+    background-color: white;
+     color: black;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+   }
+   
+   .sanitiz{
+     position: relative;
+     display: inline-block;
+   }
+   
+   .sanitiz-content {
+     display: none;
+     position: absolute;
+     background-color:white;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+   
+   }
+   
+   .sanitiz-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+   }
+   
+   .sanitiz-content a:hover {
+     background-color:white;
+     color:rgb(187, 95, 110);
+ }
+   
+   .sanitiz:hover .sanitiz-content {display: block;}
+   
+   .sanitiz:hover .sanitizbtn {background-color: white;}
+   /* --------------------------------------------------------------------- */
+
+   .colectionbtn {
+    background-color: white;
+     color: black;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+   }
+   
+   .colection{
+     position: relative;
+     display: inline-block;
+   }
+   
+   .colection-content {
+     display: none;
+     position: absolute;
+     background-color:white;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+   
+   }
+   
+   .colection-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+   }
+   
+   .colection-content a:hover {
+     background-color:white;
+     color:rgb(187, 95, 110);
+ }
+   
+   .colection:hover .colection-content {display: block;}
+   
+   .colection:hover .colectionbtn {background-color: white;}
+
+   /* ---------------------------------------------------------------------- */
+   .rewardsbtn {
+    background-color: white;
+     color: black;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+   }
+   
+   .rewards{
+     position: relative;
+     display: inline-block;
+   }
+   
+   .rewards-content {
+     display: none;
+     position: absolute;
+     background-color:white;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+   
+   }
+   
+   .rewards-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+   }
+   
+   .rewards-content a:hover {
+     background-color:white;
+     color:rgb(187, 95, 110);
+ }
+   
+   .rewards:hover .rewards-content {display: block;}
+   
+   .rewards:hover .rewardsbtn {background-color: white;}
+   /* ---------------------------------------------------------------------- */
+
+   .studiobtn {
+    background-color: white;
+     color: black;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+   }
+   
+   .studio{
+     position: relative;
+     display: inline-block;
+   }
+   
+   .studio-content {
+     display: none;
+     position: absolute;
+     background-color:white;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+   
+   }
+   
+   .studio-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+   }
+   
+   .studio-content a:hover {
+     background-color:white;
+     color:rgb(187, 95, 110);
+ }
+   
+   .studio:hover .studio-content {display: block;}
+   
+   .studio:hover .studiobtn {background-color: white;}
+
+
+
+   #big{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   }
+   #shop{
+    border:none;
+    background-color: rgb(255, 233, 237);
+    color:rgb(233, 122, 140);
+    margin-top: 14px;;
+
+   }
