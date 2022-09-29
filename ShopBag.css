@@ -110,5 +110,19 @@ a:hover {
 .titlee{
   font-family: din-2014, sans-serif;
 }
+.datadiv5{
+  display: flex;
+}
+.datadiv5 button{
+
+height: 50px;
+margin-right: 10px;
+border: none;
+background-color: none;
+font-size: 20px;
+margin-top: 4px;
+}
+
+
 
 
