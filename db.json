@@ -1,7 +1,1459 @@
 {
-  "makeup": [],
-  "haircare": [],
-  "skincare": [],
-  "sanitizing": [],
+  "makeup": [
+    {
+      "title": "MYGLAMM LIT LIQUID MATTE LIPSTICK - SUGAR MAMA",
+      "brand": "Moringa Oil Enriched Matte Lipstick",
+      "price": "395",
+      "color": "red",
+      "details": "You found The One! Trust us, ladies, this liquid matte lipstick will be your new love! The LIT Liquid Matte Lipstick by MyGlamm gives you soft, kiss-proof lips, no smudges or transfers, just pure, intense colour! Best of all, its enriched with Moringa Oil that moisturises and smoothens dry, damaged lips.",
+      "type": "lipstick",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/SugrMam-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/SugrMam-(2).jpg",
+          "https://files.myglamm.com/site-images/800x800/2-LIT-lipstic-KV-BOGO-1200x1200-103-(1)_6.png",
+          "https://files.myglamm.com/site-images/800x800/vegan_25.jpeg"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "title": "MYGLAMM LIT CREAMY MATTE LIPSTICK - TOM COLLINS",
+      "brand": "Precision Perfect Matte Slimstick",
+      "price": "357 ",
+      "color": "red",
+      "details": "Tom Collins is a dusty rose pink that’ll pair well with your favourite floral outfit. It is also PETA Approved cruelty-free and vegan.  Play up those pouts with hues for every mood. With the LIT Creamy Matte Lipsticks by MyGlamm, we've got the best of both worlds – a mad matte finish in an oh-so-creamy texture! You also get long-staying power and intense colour payoff - what else could a girl ask for? The controlled slimstick design ensures perfect precision with every swipe of colour - no smudges!",
+      "type": "lipstick",
+      "rating": "4",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Tom-Collins_6.jpg",
+          "https://files.myglamm.com/site-images/800x800/Tom-Collins.jpg",
+          "https://files.myglamm.com/site-images/800x800/Closed-Product_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Tom-Collins_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/A46A8663.jpg",
+          "https://files.myglamm.com/site-images/800x800/Tom-Collins_2.jpg"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "title": "MYGLAMM K.PLAY FLAVOURED LIPSTICK - RASPBERRY PUNCH",
+      "brand": "Raspberry Flavoured Vitamin E-enriched Creamy Lipstick",
+      "price": "327 ",
+      "color": "pink",
+      "details": "Raspberry Punch is a blood red shade with pink undertones. The vitamin C and antioxidants found in raspberries reduce the signs of ageing and protect your skin from sun damage; it's spf for your lips!",
+      "type": "lipstick",
+      "rating": "5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/RSPpnc-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/RSPpnc-(2).jpg",
+          "https://files.myglamm.com/site-images/800x800/RSPpnc-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/RSPpnc-(3).jpg"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "title": "PERFECT CURVES MATTE LIP CRAYON - SIREN",
+      "brand": "Moisturising Matte Lipstick",
+      "price": "417",
+      "color": "pink",
+      "details": "MyGlamm's Perfect Curves is an expertly curated collection of hydrating creamy matte lipsticks, these playful pencils give you lipstick and liner in a finish that lasts. Our ultra-smooth cream lipstick delivers intensely saturated color with just one swipe. Designed to define, enhance and shape your lips, Perfect Curves lipsticks are enriched with natural oils to nourish and condition your pout on the go!",
+      "type": "Crayon Lipstick",
+      "rating": "3.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Siren-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Siren-(2).jpg",
+          "https://files.myglamm.com/site-images/800x800/Siren-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/Siren-(4).jpg",
+          "https://files.myglamm.com/site-images/800x800/Siren-(4).jpg"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "title": "PERFECT CURVES MATTE LIP CRAYON - SIREN",
+      "brand": "PERFECT CURVES",
+      "price": "221",
+      "color": "orange",
+      "details": "Say hello to the oh-so-comfy, nourishing matte formula of MyGlamm LIT Matte About It Lip Colour. Powered by 3 hydrating ingredients – Moringa Oil, Castor Oil and Vitamin E for crack-free, luscious lips. Just one effortless swipe of this  matte lipstick imparts high-intensity pigment for that long-lasting, no-budge, no-bleed dance of colour. So no brownie points for guessing your next favourite matte lipstick crayon! Now, pick yours from this range of 12 ‘Gram-worthy shades or grab ‘em all to channel that main character energy. *wink wink*",
+      "type": "CRAYON LIPSTICK",
+      "rating": "2.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/1-(30)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/3-(Wing-Tango)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/2-(2)-4.jpg",
+          "https://files.myglamm.com/site-images/800x800/Crim-(4)-2.jpg",
+          "https://files.myglamm.com/site-images/800x800/Cherry5-6.gif",
+          "https://files.myglamm.com/site-images/800x800/Redrr-(2)-5.jpg"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "title": "MYGLAMM LIT MATTE ABOUT IT LIP COLOR- SALMON SWING",
+      "brand": "Matte Lipstick Crayon With Moringa Oil, Castor Oil and Vitamin E",
+      "price": "221",
+      "color": "orange",
+      "details": "Say hello to the oh-so-comfy, nourishing matte formula of MyGlamm LIT Matte About It Lip Colour. Powered by 3 hydrating ingredients – Moringa Oil, Castor Oil and Vitamin E for crack-free, luscious lips. Just one effortless swipe of this  matte lipstick imparts high-intensity pigment for that long-lasting, no-budge, no-bleed dance of colour. So no brownie points for guessing your next favourite matte lipstick crayon! Now, pick yours from this range of 12 ‘Gram-worthy shades or grab ‘em all to channel that main character energy. *wink wink*",
+      "type": "CRAYON LIPSTICK",
+      "rating": "2.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/1-(29)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/3-(Wing-Tango)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/2-(2)-4.jpg",
+          "https://files.myglamm.com/site-images/800x800/Crim-(4)-2.jpg",
+          "https://files.myglamm.com/site-images/800x800/Cherry5-6.gif",
+          "https://files.myglamm.com/site-images/800x800/Redrr-(2)-5.jpg"
+        ]
+      },
+      "id": 6
+    },
+    {
+      "title": "MYGLAMM LIT MATTE ABOUT IT LIP COLOR- SALMON SWING",
+      "brand": "Matte Lipstick Crayon With Moringa Oil, Castor Oil and Vitamin E",
+      "price": "221",
+      "color": "orange",
+      "details": "Say hello to the oh-so-comfy, nourishing matte formula of MyGlamm LIT Matte About It Lip Colour. Powered by 3 hydrating ingredients – Moringa Oil, Castor Oil and Vitamin E for crack-free, luscious lips. Just one effortless swipe of this  matte lipstick imparts high-intensity pigment for that long-lasting, no-budge, no-bleed dance of colour. So no brownie points for guessing your next favourite matte lipstick crayon! Now, pick yours from this range of 12 ‘Gram-worthy shades or grab ‘em all to channel that main character energy. *wink wink*",
+      "type": "lipstick",
+      "rating": "2.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/1-(29)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/3-(Wing-Tango)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/2-(2)-4.jpg",
+          "https://files.myglamm.com/site-images/800x800/Crim-(4)-2.jpg",
+          "https://files.myglamm.com/site-images/800x800/Cherry5-6.gif",
+          "https://files.myglamm.com/site-images/800x800/Redrr-(2)-5.jpg"
+        ]
+      },
+      "id": 7
+    },
+    {
+      "title": "MYGLAMM LIT MATTE ABOUT IT LIP COLOR- SALMON SWING",
+      "brand": "Matte Lipstick Crayon With Moringa Oil, Castor Oil and Vitamin E",
+      "price": "221",
+      "color": "orange",
+      "details": "Say hello to the oh-so-comfy, nourishing matte formula of MyGlamm LIT Matte About It Lip Colour. Powered by 3 hydrating ingredients – Moringa Oil, Castor Oil and Vitamin E for crack-free, luscious lips. Just one effortless swipe of this  matte lipstick imparts high-intensity pigment for that long-lasting, no-budge, no-bleed dance of colour. So no brownie points for guessing your next favourite matte lipstick crayon! Now, pick yours from this range of 12 ‘Gram-worthy shades or grab ‘em all to channel that main character energy. *wink wink*",
+      "type": "lipstick",
+      "rating": "2.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/1-(29)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/3-(Wing-Tango)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/2-(2)-4.jpg",
+          "https://files.myglamm.com/site-images/800x800/Crim-(4)-2.jpg",
+          "https://files.myglamm.com/site-images/800x800/Cherry5-6.gif",
+          "https://files.myglamm.com/site-images/800x800/Redrr-(2)-5.jpg"
+        ]
+      },
+      "id": 8
+    },
+    {
+      "title": "MYGLAMM LIT MATTE ABOUT IT LIP COLOR- SALMON SWING",
+      "brand": "Matte Lipstick Crayon With Moringa Oil, Castor Oil and Vitamin E",
+      "price": "221",
+      "color": "orange",
+      "details": "Say hello to the oh-so-comfy, nourishing matte formula of MyGlamm LIT Matte About It Lip Colour. Powered by 3 hydrating ingredients – Moringa Oil, Castor Oil and Vitamin E for crack-free, luscious lips. Just one effortless swipe of this  matte lipstick imparts high-intensity pigment for that long-lasting, no-budge, no-bleed dance of colour. So no brownie points for guessing your next favourite matte lipstick crayon! Now, pick yours from this range of 12 ‘Gram-worthy shades or grab ‘em all to channel that main character energy. *wink wink*",
+      "type": "lipstick",
+      "rating": "2.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/1-(29)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/3-(Wing-Tango)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/2-(2)-4.jpg",
+          "https://files.myglamm.com/site-images/800x800/Crim-(4)-2.jpg",
+          "https://files.myglamm.com/site-images/800x800/Cherry5-6.gif",
+          "https://files.myglamm.com/site-images/800x800/Redrr-(2)-5.jpg"
+        ]
+      },
+      "id": 9
+    },
+    {
+      "title": "MYGLAMM LIT MATTE ABOUT IT LIP COLOR- SALMON SWING",
+      "brand": "Matte Lipstick Crayon With Moringa Oil, Castor Oil and Vitamin E",
+      "price": "221",
+      "color": "orange",
+      "details": "Say hello to the oh-so-comfy, nourishing matte formula of MyGlamm LIT Matte About It Lip Colour. Powered by 3 hydrating ingredients – Moringa Oil, Castor Oil and Vitamin E for crack-free, luscious lips. Just one effortless swipe of this  matte lipstick imparts high-intensity pigment for that long-lasting, no-budge, no-bleed dance of colour. So no brownie points for guessing your next favourite matte lipstick crayon! Now, pick yours from this range of 12 ‘Gram-worthy shades or grab ‘em all to channel that main character energy. *wink wink*",
+      "type": "CRAYON LIPSTICK",
+      "rating": "2.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/1-(29)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/3-(Wing-Tango)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/2-(2)-4.jpg",
+          "https://files.myglamm.com/site-images/800x800/Crim-(4)-2.jpg",
+          "https://files.myglamm.com/site-images/800x800/Cherry5-6.gif",
+          "https://files.myglamm.com/site-images/800x800/Redrr-(2)-5.jpg"
+        ]
+      },
+      "id": 10
+    },
+    {
+      "title": "MYGLAMM LIT MATTE ABOUT IT LIP COLOR- SALMON SWING",
+      "brand": "Matte Lipstick Crayon With Moringa Oil, Castor Oil and Vitamin E",
+      "price": "221",
+      "color": "orange",
+      "details": "Say hello to the oh-so-comfy, nourishing matte formula of MyGlamm LIT Matte About It Lip Colour. Powered by 3 hydrating ingredients – Moringa Oil, Castor Oil and Vitamin E for crack-free, luscious lips. Just one effortless swipe of this  matte lipstick imparts high-intensity pigment for that long-lasting, no-budge, no-bleed dance of colour. So no brownie points for guessing your next favourite matte lipstick crayon! Now, pick yours from this range of 12 ‘Gram-worthy shades or grab ‘em all to channel that main character energy. *wink wink*",
+      "type": "CRAYON LIPSTICK",
+      "rating": "2.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/1-(29)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/3-(Wing-Tango)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/2-(2)-4.jpg",
+          "https://files.myglamm.com/site-images/800x800/Crim-(4)-2.jpg",
+          "https://files.myglamm.com/site-images/800x800/Cherry5-6.gif",
+          "https://files.myglamm.com/site-images/800x800/Redrr-(2)-5.jpg"
+        ]
+      },
+      "id": 11
+    },
+    {
+      "title": "MYGLAMM LIT MATTE ABOUT IT LIP COLOR- SALMON SWING",
+      "brand": "Matte Lipstick Crayon With Moringa Oil, Castor Oil and Vitamin E",
+      "price": "221",
+      "color": "orange",
+      "details": "Say hello to the oh-so-comfy, nourishing matte formula of MyGlamm LIT Matte About It Lip Colour. Powered by 3 hydrating ingredients – Moringa Oil, Castor Oil and Vitamin E for crack-free, luscious lips. Just one effortless swipe of this  matte lipstick imparts high-intensity pigment for that long-lasting, no-budge, no-bleed dance of colour. So no brownie points for guessing your next favourite matte lipstick crayon! Now, pick yours from this range of 12 ‘Gram-worthy shades or grab ‘em all to channel that main character energy. *wink wink*",
+      "type": "CRAYON LIPSTICK",
+      "rating": "2.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/1-(29)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/3-(Wing-Tango)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/2-(2)-4.jpg",
+          "https://files.myglamm.com/site-images/800x800/Crim-(4)-2.jpg",
+          "https://files.myglamm.com/site-images/800x800/Cherry5-6.gif",
+          "https://files.myglamm.com/site-images/800x800/Redrr-(2)-5.jpg"
+        ]
+      },
+      "id": 12
+    },
+    {
+      "title": "MYGLAMM LIT MATTE ABOUT IT LIP COLOR- RED RUMBA",
+      "brand": "Matte Lipstick Crayon With Moringa Oil, Castor Oil and Vitamin E",
+      "price": "229",
+      "color": "orange",
+      "details": "Say hello to the oh-so-comfy, nourishing matte formula of MyGlamm LIT Matte About It Lip Colour. Powered by 3 hydrating ingredients – Moringa Oil, Castor Oil and Vitamin E for crack-free, luscious lips. Just one effortless swipe of this  matte lipstick imparts high-intensity pigment for that long-lasting, no-budge, no-bleed dance of colour. So no brownie points for guessing your next favourite matte lipstick crayon! Now, pick yours from this range of 12 ‘Gram-worthy shades or grab ‘em all to channel that main character energy. *wink wink*",
+      "type": "LIQUID LIPSTICK",
+      "rating": "2.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/IFLY-(1)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/IFLY-(4)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/IFLY-(3)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/IFLY-(2)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/IFLY-(2)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/IFLY-(2)_1.jpg"
+        ]
+      },
+      "id": 13
+    },
+    {
+      "title": "MYGLAMM LIT MATTE ABOUT IT LIP COLOR- RED RUMBA",
+      "brand": "Matte Lipstick Crayon With Moringa Oil, Castor Oil and Vitamin E",
+      "price": "582",
+      "color": "orange",
+      "details": "Say hello to the oh-so-comfy, nourishing matte formula of MyGlamm LIT Matte About It Lip Colour. Powered by 3 hydrating ingredients – Moringa Oil, Castor Oil and Vitamin E for crack-free, luscious lips. Just one effortless swipe of this  matte lipstick imparts high-intensity pigment for that long-lasting, no-budge, no-bleed dance of colour. So no brownie points for guessing your next favourite matte lipstick crayon! Now, pick yours from this range of 12 ‘Gram-worthy shades or grab ‘em all to channel that main character energy. *wink wink*",
+      "type": "LIQUID LIPSTICK",
+      "rating": "4",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Liquid-Matte-Lipstick-post-1-Ladies-Night.jpg",
+          "https://files.myglamm.com/site-images/800x800/Liquid-Matte-Lipstick-post-6-Ladies-Night.jpg",
+          "https://files.myglamm.com/site-images/800x800/Liquid-Matte-Lipstick-post-1-Ladies-Night.jpg",
+          "https://files.myglamm.com/site-images/800x800/IFLY-(2)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Liquid-Matte-Lipstick-post-1-Ladies-Night.jpg",
+          "https://files.myglamm.com/site-images/800x800/Liquid-Matte-Lipstick-post-1-Ladies-Night.jpg",
+          "https://files.myglamm.com/site-images/800x800/Liquid-Matte-Lipstick-post-1-Ladies-Night.jpg"
+        ]
+      },
+      "id": 14
+    },
+    {
+      "title": "MANISH MALHOTRA LIQUID MATTE LIPSTICK - LADIES NIGHT",
+      "brand": "Long-stay Velvet Matte Lip Colour",
+      "price": "882",
+      "color": "brown",
+      "details": "Who says glamour is only about the glitz? The Manish Malhotra Liquid Matte Lipstick exclusively by MyGlamm is the only haute number you’ll need on a night out. Highly pigmented, this liquid lipstick mattifies into weightless velour on your lips.",
+      "type": "LIQUID LIPSTICK",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/stargazer-7.jpeg",
+          "https://files.myglamm.com/site-images/800x800/strangers.jpeg",
+          "https://files.myglamm.com/site-images/800x800/a46a0099-4.jpeg",
+          "https://files.myglamm.com/site-images/800x800/stargazer-7.jpeg"
+        ]
+      },
+      "id": 15
+    },
+    {
+      "title": "MYGLAMM LIT 2 IN 1 LIQUID MATTE LIPSTICK - STARGAZER",
+      "brand": "Intense, transfer-proof, long-lasting liquid lipstick duos",
+      "price": "327",
+      "color": "brown",
+      "details": "Whether you’re channelling your inner Beyoncé or Sasha Fierce there’s a shade for every person and their alter egos! The LIT 2 in 1 Liquid Matte Lipstick by MyGlamm gives you soft, kiss-proof lips, no smudges or transfers, just pure, intense colour!",
+      "type": "LIQUID LIPSTICK",
+      "rating": "5.0",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Mocha.jpg",
+          "https://files.myglamm.com/site-images/800x800/mchaic-(2).jpg",
+          "https://files.myglamm.com/site-images/800x800/mchaic-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/mchaic-(4).jpg"
+        ]
+      },
+      "id": 16
+    },
+    {
+      "title": " POPXO MAKEUP - NO DRAMA - MINI LIP KIT",
+      "brand": "Mini Lipstick kit with 3 creamy-matte nude lipsticks",
+      "price": "227",
+      "color": "pink",
+      "details": "No Drama - Mini Lipstick Kit is a set of 3 gorgeous creamy-matte nude lipsticks that will add a little extra something to your #NoMakeup selfies. No-fuss, no-frills, just dreamy lippies that you can pair with just about anything. This mini lip kit includes 3 irresistible nude lipsticks - one for every mood, duh. These mini lipsticks set have a creamy, matte formula that glides on the lips smoothly and wears comfortably for long hours. The pigmented formula delivers rich colour payoff in one swipe and is designed to be suitable for all Indian skin tones.   \"I have too many lipsticks\" - said no one ever! That's because we know the real power of a good lipstick on a bad day.",
+      "type": "lipstick",
+      "rating": "5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/open-product-with-side-bar_2.jpg",
+          "https://files.myglamm.com/site-images/800x800/Close-Product_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Open-product-with-side-bar-copy-3-.jpg",
+          "https://files.myglamm.com/site-images/800x800/why-you-love-it_4.jpg"
+        ]
+      },
+      "id": 17
+    },
+    {
+      "title": "MYGLAMM POSE HD LIPSTICK - PEACH PINK",
+      "brand": "HD Long-wear Matte Lipstick",
+      "price": "358",
+      "color": "pink",
+      "details": "Pucker up ladies, those pouts are about to get a dose of high definition colour. The POSE Matte Lipstick by MyGlamm is matte with moisture, enriched with Moringa oil and Vitamin E for plump, hydrated lips. It also prevents flaking and lends a soft focus effect for your #nofilter selfies.",
+      "type": "lipstick",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/PechPnk-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/PechPnk-(2).jpg",
+          "https://files.myglamm.com/site-images/800x800/PechPnk-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/PechPnk-(1).jpg"
+        ]
+      },
+      "id": 18
+    },
+    {
+      "title": "ULTIMATTE LONG-STAY MATTE LIPSTICK - PROMISCUOUS",
+      "brand": "Hyaluronic Acid-enriched, Moisturising, Matte Slim Lipstick",
+      "price": "419",
+      "color": "orange",
+      "details": "You’ll fall in love with these 12 shades of MyGlamm Ultimatte Long Stay Matte Lipsticks—pure, pigment-rich colour that glides on, stays in place and wears like a dream. At the heart of this innovative formula, hyaluronic filling spheres and silicon butter smooth and fill lips with moisture, delivering a silky smooth matte finish that never feels dry - making your pout the perfect date night accessory. ",
+      "type": "lipstick",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Promiscious-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Promiscious-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/Promiscious-(4).jpg",
+          "https://files.myglamm.com/site-images/800x800/Promiscious-(2).jpg"
+        ]
+      },
+      "id": 19
+    },
+    {
+      "title": "LIT LIQUID MATTE LIPSTICK + SUPERFOODS KAJAL + LIT VELVET MATTE LIQUID LIPSTICK",
+      "brand": "Moringa Oil Enriched Matte Lipstick & Long-Wear Smudge-Proof Kajal Infused With Natural Superfood Extracts & Hydrating, Velvet Matte Liquid Lipcolour",
+      "price": "412",
+      "color": "3",
+      "details": "You found The One! Trust us, ladies, this liquid matte lipstick will be your new love! The LIT Liquid Matte Lipstick by MyGlamm gives you soft, kiss-proof lips, no smudges or transfers, just pure, intense colour! Best of all, its enriched with Moringa Oil that moisturises and smoothens dry, damaged lips.",
+      "type": "LIQUID LIPSTICK",
+      "rating": "5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/LB-FB-copy_2.jpg",
+          "https://files.myglamm.com/site-images/800x800/Thku-(1)_2.jpg",
+          "https://files.myglamm.com/site-images/800x800/Raven-(1)-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/LB-FB-(1)_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Raven-(2)-(1).jpg"
+        ]
+      },
+      "id": 20
+    }
+  ],
+  "haircare": [
+    {
+      "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+      "brand": "Sheet Mask For a Post-sun Glow Up",
+      "price": "84",
+      "color": "Yellow",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "SHAMPOO",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Artboard-1-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+      "brand": "Sheet Mask For a Post-sun Glow Up",
+      "price": "84",
+      "color": "Yellow",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "SHAMPOO",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Artboard-1-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+      "brand": "Sheet Mask For a Post-sun Glow Up",
+      "price": "84",
+      "color": "Yellow",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "SHAMPOO",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Artboard-1-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+      "brand": "Sheet Mask For a Post-sun Glow Up",
+      "price": "84",
+      "color": "Yellow",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "SHAMPOO",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Artboard-1-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+      "brand": "Sheet Mask For a Post-sun Glow Up",
+      "price": "84",
+      "color": "Yellow",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "SHAMPOO",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Artboard-1-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+      "brand": "Sheet Mask For a Post-sun Glow Up",
+      "price": "84",
+      "color": "Yellow",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "SHAMPOO",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/SHP-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 6
+    },
+    {
+      "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+      "brand": "Sheet Mask For a Post-sun Glow Up",
+      "price": "84",
+      "color": "Yellow",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "SHAMPOO",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Passion-Fruit--Rosemary-Shampoo.jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 7
+    },
+    {
+      "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+      "brand": "Sheet Mask For a Post-sun Glow Up",
+      "price": "84",
+      "color": "Yellow",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "SHAMPOO",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/SMP-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 8
+    },
+    {
+      "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+      "brand": "Sheet Mask For a Post-sun Glow Up",
+      "price": "84",
+      "color": "Yellow",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "SHAMPOO",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/SMP-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 9
+    },
+    {
+      "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+      "brand": "Sheet Mask For a Post-sun Glow Up",
+      "price": "84",
+      "color": "Yellow",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "SHAMPOO",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/SMP-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 10
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+      "brand": "For Hair Fall Control",
+      "price": "179",
+      "color": "green",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "HAIR CONDITIONER",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Artboard-1-(2).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 11
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+      "brand": "For Hair Fall Control",
+      "price": "179",
+      "color": "green",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "HAIR CONDITIONER",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Passion-Fruit---Olive-Conditioner-1_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 12
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+      "brand": "For Hair Fall Control",
+      "price": "179",
+      "color": "green",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "HAIR CONDITIONER",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Product-1-2.jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 13
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+      "brand": "For Hair Fall Control",
+      "price": "179",
+      "color": "blue",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "HAIR OIL",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Artboard-1_27.jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 14
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+      "brand": "For Hair Fall Control",
+      "price": "179",
+      "color": "blue",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "HAIR OIL",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Oil-Product_4.jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 15
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+      "brand": "For Hair Fall Control",
+      "price": "179",
+      "color": "blue",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "HAIR OIL",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Oil-Product_4.jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 16
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+      "brand": "For Hair Fall Control",
+      "price": "179",
+      "color": "blue",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "HAIR OIL",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Oil-Product_4.jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 17
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+      "brand": "For Hair Fall Control",
+      "price": "179",
+      "color": "blue",
+      "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+      "type": "HAIR OIL",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Oil-Product_4.jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+        ]
+      },
+      "id": 18
+    }
+  ],
+  "skincare": [
+    {
+      "title": "MANISH MALHOTRA AMLA MOISTURISING GEL",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "600",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "MOISTURIZER",
+      "rating": "4.5",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/17-Amla-Moisturising-Gel-Post-1-01.jpg",
+          "https://files.myglamm.com/site-images/800x800/17-Amla-Moisturising-Gel-Post-5-01.jpg",
+          "https://files.myglamm.com/site-images/800x800/Benefits-Final-Amla-Moisturising-Gel-17.jpg",
+          "https://files.myglamm.com/site-images/800x800/How-To-Use-Final-Amla-Moisturising-Gel.jpg",
+          "https://files.myglamm.com/site-images/800x800/17-Amla-Moisturising-Gel-Post-3-01.jpg"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "400",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "MOISTURIZER",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-1_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-2_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "400",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "MOISTURIZER",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/MSTCRM-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-2_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "300",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "MOISTURIZER",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/SN4.png",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-2_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "MOISTURIZER",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Moistuirising-Cream-Swatch.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-2_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "MOISTURIZER",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Moistuirising-Cream-Swatch.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-2_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 6
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "MOISTURIZER",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Moistuirising-Cream-Swatch.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-2_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 7
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "MOISTURIZER",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Moistuirising-Cream-Swatch.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-2_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 8
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "MOISTURIZER",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/21-Rose-Lip-Moisturising-Gel-Post-1-01.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-2_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 9
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "MOISTURIZER",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/21-Rose-Lip-Moisturising-Gel-Post-1-01.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-2_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 10
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "MOISTURIZER",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/21-Rose-Lip-Moisturising-Gel-Post-1-01.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-2_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 11
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "MOISTURIZER",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/21-Rose-Lip-Moisturising-Gel-Post-1-01.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-2_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 12
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "MOISTURIZER",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/21-Rose-Lip-Moisturising-Gel-Post-1-01.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-2_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 13
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "NIGHT CREAM",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Manish-Malhotra-Sunday-night-indulgence-skincare-set---MyGlamm.jpg",
+          "https://files.myglamm.com/site-images/800x800/Manish-Malhotra-Honey-&-Nutmeg-Hydrating-Sheet-Mask---MyGlamm.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 14
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "NIGHT CREAM",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Manish-Malhotra-Sunday-night-indulgence-skincare-set---MyGlamm.jpg",
+          "https://files.myglamm.com/site-images/800x800/Manish-Malhotra-Honey-&-Nutmeg-Hydrating-Sheet-Mask---MyGlamm.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 15
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "NIGHT CREAM",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Manish-Malhotra-Sunday-night-indulgence-skincare-set---MyGlamm.jpg",
+          "https://files.myglamm.com/site-images/800x800/Manish-Malhotra-Honey-&-Nutmeg-Hydrating-Sheet-Mask---MyGlamm.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 16
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "NIGHT CREAM",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Manish-Malhotra-Sunday-night-indulgence-skincare-set---MyGlamm.jpg",
+          "https://files.myglamm.com/site-images/800x800/Manish-Malhotra-Honey-&-Nutmeg-Hydrating-Sheet-Mask---MyGlamm.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 17
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "NIGHT CREAM",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Manish-Malhotra-Sunday-night-indulgence-skincare-set---MyGlamm.jpg",
+          "https://files.myglamm.com/site-images/800x800/Manish-Malhotra-Honey-&-Nutmeg-Hydrating-Sheet-Mask---MyGlamm.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 18
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "NIGHT CREAM",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Manish-Malhotra-Sunday-night-indulgence-skincare-set---MyGlamm.jpg",
+          "https://files.myglamm.com/site-images/800x800/Manish-Malhotra-Honey-&-Nutmeg-Hydrating-Sheet-Mask---MyGlamm.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-3_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-4-min.jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 19
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "EYE CREAM",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Artboard-1-3.jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(7).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(6).jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 20
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "EYE CREAM",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Eye-Cream-swatch.jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(7).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(6).jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 21
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "EYE CREAM",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/BBEYE-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(7).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(6).jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 22
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "EYE CREAM",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/BBEYE-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(7).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(6).jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 23
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "EYE CREAM",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/BBEYE-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(7).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(6).jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 24
+    },
+    {
+      "title": "MYGLAMM SUPERFOODS BLUEBERRY & STRAWBERRY FACE CREAM 50G",
+      "brand": "Gel-based Natural Moisturiser",
+      "price": "359",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "EYE CREAM",
+      "rating": "4.9",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/BBEYE-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(7).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(6).jpg",
+          "https://files.myglamm.com/site-images/800x800/Blueberry---Strawberry-Face-Cream-6_1.jpg"
+        ]
+      },
+      "id": 25
+    }
+  ],
+  "sanitizing": [
+    {
+      "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+      "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+      "price": "52",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "SANITIZING WIPES",
+      "rating": "5.0",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/5-sanitizing-wipes.jpg",
+          "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/WPE-(2).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(6).jpg",
+          "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+      "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+      "price": "52",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "SANITIZING WIPES",
+      "rating": "5.0",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/5-sanitizing-wipes.jpg",
+          "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/WPE-(2).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(6).jpg",
+          "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+      "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+      "price": "52",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "SANITIZING WIPES",
+      "rating": "5.0",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/5-sanitizing-wipes.jpg",
+          "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/WPE-(2).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(6).jpg",
+          "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+      "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+      "price": "52",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "SANITIZING WIPES",
+      "rating": "5.0",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/5-sanitizing-wipes.jpg",
+          "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg",
+          "https://files.myglamm.com/site-images/800x800/WPE-(2).jpg",
+          "https://files.myglamm.com/site-images/800x800/eycrd-(6).jpg",
+          "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+      "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+      "price": "200",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "HAND-SANITIZER",
+      "rating": "5.0",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/25-Antimicrobial-Sanitizing-Hand-Rub-Post-1-Sanitizing-Spray.jpg",
+          "https://files.myglamm.com/site-images/800x800/Benefits-Final-Antimicrobial-Sanitizing-Hand-Rub-25-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/How-To-Use-Final-Antimicrobial-Sanitizing-Hand-Rub-100ml.jpg",
+          "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg",
+          "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+      "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+      "price": "220",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "HAND-SANITIZER",
+      "rating": "5.0",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/25-Antimicrobial-Sanitizing-Hand-Rub-Post-1-Sanitizing-Spray.jpg",
+          "https://files.myglamm.com/site-images/800x800/Benefits-Final-Antimicrobial-Sanitizing-Hand-Rub-25-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/How-To-Use-Final-Antimicrobial-Sanitizing-Hand-Rub-100ml.jpg",
+          "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg",
+          "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg"
+        ]
+      },
+      "id": 6
+    },
+    {
+      "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+      "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+      "price": "520",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "HAND-SANITIZER",
+      "rating": "5.0",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/25-Antimicrobial-Sanitizing-Hand-Rub-Post-1-Sanitizing-Spray.jpg",
+          "https://files.myglamm.com/site-images/800x800/Benefits-Final-Antimicrobial-Sanitizing-Hand-Rub-25-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/How-To-Use-Final-Antimicrobial-Sanitizing-Hand-Rub-100ml.jpg",
+          "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg",
+          "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg"
+        ]
+      },
+      "id": 7
+    },
+    {
+      "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+      "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+      "price": "550",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "HAND-SANITIZER",
+      "rating": "5.0",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/25-Antimicrobial-Sanitizing-Hand-Rub-Post-1-Sanitizing-Spray.jpg",
+          "https://files.myglamm.com/site-images/800x800/Benefits-Final-Antimicrobial-Sanitizing-Hand-Rub-25-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/How-To-Use-Final-Antimicrobial-Sanitizing-Hand-Rub-100ml.jpg",
+          "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg",
+          "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg"
+        ]
+      },
+      "id": 8
+    },
+    {
+      "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+      "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+      "price": "450",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "SANITIZING-KITS",
+      "rating": "5.0",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Cleansing-towels_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg"
+        ]
+      },
+      "id": 9
+    },
+    {
+      "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+      "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+      "price": "400",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "SANITIZING-KITS",
+      "rating": "5.0",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Cleansing-towels_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg"
+        ]
+      },
+      "id": 10
+    },
+    {
+      "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+      "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+      "price": "230",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "SANITIZING-KITS",
+      "rating": "5.0",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Cleansing-towels_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg"
+        ]
+      },
+      "id": 11
+    },
+    {
+      "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+      "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+      "price": "280",
+      "color": "white",
+      "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+      "type": "SANITIZING-KITS",
+      "rating": "5.0",
+      "images": {
+        "image": [
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Cleansing-towels_1.jpg",
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+          "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg"
+        ]
+      },
+      "id": 12
+    }
+  ],
   "collection": []
 }
