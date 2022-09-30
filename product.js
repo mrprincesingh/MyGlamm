@@ -141,7 +141,7 @@ let cart=(data)=>{
     
     }
     cartData.push(data1);
-    // console.log(cartData)
+    console.log(cartData)
     cartData= JSON.stringify(cartData);
     localStorage.setItem('cartData',cartData)
 }
