@@ -27,8 +27,7 @@
         <button onclick="submit(value)" value="collection">Submit at Collection</button>
 
     </div>
-    <video></video>
-</body>
+    Face-Pack
 </html>
 <script>
     let get=(id)=>{
@@ -60,11 +59,11 @@
         let productData={
             title:get('#name').value,
             brand:get('#brand').value,
-            price:get('#price').value,
+            price:+get('#price').value,
             color:get('#color').value,
             details:get('#desc').value,
             type:get('#type').value,
-            rating:get('#rating').value,
+            rating:+get('#rating').value,
             images:{
                 image:[]
             }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="checkout2.css">
+    
+    
+</head>
+<body>
+    <div id="WholeNavbar">
+        <div class="logo"><a href="#"><img src="https://files.myglamm.com/site-images/original/MyGlamm-Logo_1.jpg"></a></div>
+        <div id="navbar">
+    </div>
+    <h2 id="text-c">Checkout</h2>
+    <div id="main">
+        <div id="address">
+            <h2 id="ss">SHIPPING ADDRESS</h2>
+            <hr>
+            <h2 id="name">Sahil</h2>
+            <p id="shippingAdd">jabfvdshf vbshvhbaskv hbaskbhvkas hbvkbshdvfbs fvbafbvakubvk aebhvkahubvk uabhvkbha kbvkaubvka bvkubakbv haekuhbfv askudhbvsk uadhbvdsk jbvhkjdbs h</p>
+            <p id="mobile">aebhvkahubvk</p>
+            <p id="mail">lssvd</p>
+            <button id="changeButton" onclick="changeAddress()">CHANGE</button>
+            <div id="delivery">
+                <h4>Expected Delivery Date</h4>
+                <p>06-Oct-2022</p>
+            </div>
+            <div id="order">
+                <h3>YOUR ORDER</h3>
+                <div id="orders"></div>
+            </div>
+        </div>
+        <div id="payment">
+            <h4 id="summary">Order Summary</h4>
+            <div id="mrp">
+                <h4 id="mrpText">MRP</h4>
+                <p id="mrpPrice">2000</p>
+            </div>
+            <div id="discount">
+                <h4 id="discountText">Discount</h4>
+                <p id="discountPrice">0</p>
+            </div>
+            <div id="shipping">
+                <h4 id="shippingText">Shipping Charge</h4>
+                <p id="shippingPrice">Free</p>
+            </div>
+            <div id="payable">
+                <h4 id="payableText">Amount Payable</h4>
+                <p id="payablePrice">8000</p>
+            </div>
+            <div id="saved">
+                <h4 id="savedText">You Saved</h4>
+                <p id="savedPrice">0</p>
+            </div>
+            <div id="earn">
+                <h4 id="earnText">You will earn</h4>
+                <p id="earnPrice">200</p>
+            </div>
+            <button onclick="payment()" id="paymentBtn">PROCEED TO PAYMENT</button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./checkout.js"></script>
+<script type="module">
+    // import styles from "./checkout.css";
+import navbar from "./navbar.js";
+let x = document.getElementById("navbar");
+x.innerHTML = navbar();
+</script>
