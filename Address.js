@@ -51,3 +51,6 @@ off.addEventListener("click", function () {
   off.style.border = "2px solid black";
   ho.style.border = "0px";
 });
+let location = document.getElementById("shipbtn").addEventListener("click",()=>{
+  window.location.href = "checkout.html"
+})
