@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  margin: 0 0 0 400px;
+  padding: 0;
+  display: flex;
+  gap: 110px;
+  margin-top: 10px;
+}
+li {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+li:hover {
+  color: black;
+}
+li::marker {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+#navbar a {
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+#navbar {
+  width: 96.5%;
+  overflow: auto;
+  /* border: 2px solid grey; */
+  padding: 25px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+#navbar img {
+  height: 28px;
+  width: 40px;
+  margin-top: 13px;
+  margin-left: 90px;
+  cursor: pointer;
+}
+#navbar select {
+  height: 20px;
+  width: 80px;
+  position: absolute;
+  margin-top: 17px;
+  border: none;
+  cursor: pointer;
+}
+.logo img {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+.logo2 img {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+#nabvar a {
+  width: 100px;
+  display: block;
+  padding: 20px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#maindiv {
+  /* display: flex; */
+
+  width: 90%;
+  height: 97%;
+  position: absolute;
+  /* border: 1px solid red; */
+  margin-left: 7%;
+  margin-top: 40px;
+  border-color: rgb(226, 223, 223);
+  border-radius: 5px;
+  border-style: solid;
+}
+#maindiv > p + hr {
+  margin-top: 30px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#Address {
+  text-align: center;
+  /* border: 2px solid teal; */
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* InnerDiv */
+
+#contact {
+  /* display: flex; */
+  margin: 110px 70px 100px;
+  margin-top: 40px;
+  gap: 40px;
+  width: 90%;
+  height: 30%;
+  /* border: 1px solid black; */
+}
+#inputfield {
+  display: flex;
+  /* border: 1px solid yellow; */
+  margin-top: 20px;
+  gap: 200px;
+}
+#inputfield p,
+#inputfield2 p,
+#inputfield3 p,
+#inputfield4 p,
+#inputfield5 p {
+  font-weight: bold;
+}
+#inputfield input {
+  padding: 15px;
+  width: 300px;
+  border-color: rgb(226, 223, 223);
+  border-radius: 5px;
+  border-style: solid;
+}
+#inputfield + hr {
+  margin-top: 30px;
+  padding: 8px;
+  background-color: #ebe8e8;
+  border: none;
+  border-radius: 3px;
+}
+#inputfield2 {
+  display: flex;
+  /* border: 1px solid yellow; */
+  margin-top: 30px;
+  gap: 80px;
+}
+#inputfield2 input {
+  padding: 15px;
+  width: 300px;
+  border-color: rgb(226, 223, 223);
+  border-radius: 5px;
+  border-style: solid;
+}
+
+#inputfield3 {
+  display: flex;
+  /* border: 1px solid yellow; */
+  margin-top: 30px;
+  gap: 80px;
+}
+#inputfield3 input {
+  padding: 15px;
+  width: 700px;
+  border-color: rgb(226, 223, 223);
+  border-radius: 5px;
+  border-style: solid;
+}
+
+#inputfield4 {
+  display: flex;
+  /* border: 1px solid yellow; */
+  margin-top: 30px;
+  gap: 10px;
+}
+#inputfield4 button {
+  padding: 15px;
+  width: 100px;
+  border-color: rgb(226, 223, 223);
+  border-radius: 5px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+#inputfield5 {
+  display: flex;
+  /* border: 1px solid yellow; */
+  margin-top: 30px;
+}
+#inputfield5 label {
+  border-color: rgb(226, 223, 223);
+  border-radius: 5px;
+}
+#inputfield5 p {
+  margin-left: 6px;
+  color: rgb(125, 122, 122);
+  font-size: 14px;
+}
+
+#inputfield6 {
+  display: flex;
+  /* border: 1px solid yellow; */
+  margin-top: 30px;
+  gap: 750px;
+}
+#inputfield6 button {
+  padding: 15px;
+  width: 200px;
+  border-color: rgb(226, 223, 223);
+  border-radius: 5px;
+  border-style: solid;
+  cursor: pointer;
+  font-weight: bold;
+}
+#inputfield6 + hr {
+  margin-top: 90px;
+}
+#My {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+#backbtn:hover,
+#shipbtn:hover {
+  background-color: #cfcccc;
+}
