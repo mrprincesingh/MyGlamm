@@ -17,30 +17,50 @@ let upi=()=>{
     buttonAppend.append(btn)
     cont.append(input)
     
+}
 
+let selectBank=()=>{
+    value=document.getElementById('upiInput').value
+    console.log(value)
 }
 let net=()=>{
+    // console.log(1)
     cont.innerHTML=null
     buttonAppend.innerHTML=null
     let input=create('select')
+    input.setAttribute('id','upiInput')
+
+    
+    // input.setAttribute('id','bankSelect')
+    input.addEventListener('change',()=>{
+        selectBank()
+    })
+    
     input.style.height="70px"
     let option1=create('option')
     option1.innerText="CHOOSE YOUR BANK"
     let option2=create('option')
     option2.innerText="AXIS BANK"
+    option2.setAttribute('value',"axis")
     let option3=create('option')
     option3.innerText="BANK OF INDIA"
+    option3.setAttribute('value',"boi")
     let option4=create('option')
     option4.innerText="CENTRAL BANK OF INDIA"
+    option4.setAttribute('value',"cbi")
     let option5=create('option')
     option5.innerText="HDFC BANK"
+    option5.setAttribute('value',"hdfc")
 
     input.append(option1,option2,option3,option4,option5)
     
-    input.setAttribute('id','upiInput')
+    
     let btn=create('button')
     btn.innerText="CONTINUE"
     btn.setAttribute('class','btnAppend')
+    btn.addEventListener("click", ()=>{
+        continueOrder()
+    })
     buttonAppend.append(btn)
     // input.type="text"
     cont.append(input)
@@ -120,7 +140,42 @@ let cash=()=>{
     div.append(p)
     
     btn.setAttribute('class','btnAppend')
+    btn.addEventListener("click", ()=>{
+        confirmOrder()
+    })
     buttonAppend.append(btn)
+    
     cont.append(div)
     
+}
+let total=JSON.parse(localStorage.getItem('TotalAmount'))
+let amount = document.getElementById('amount')
+amount.innerText=total
+
+let confirmOrder=()=>{
+    // let nameUser=document.getElementById('user_name').value
+    // console.log('inside')
+    let i=0
+    id=setInterval(() => {
+        if(i===3){
+            alert(`Your Order is successfully Placed`)
+            clearInterval(id)
+            // window.location.href = "index.html"
+        }
+        i=i+1
+        // console.log(i)
+    }, 1000);
+}
+
+let continueOrder=()=>{
+    let input=document.getElementById('upiInput')
+    if(input.value=="axis"){
+        window.location.href = "https://omni.axisbank.co.in/axisretailbanking/"
+    }else if(input.value=="boi"){
+        window.location.href ="https://www.bankofindia.co.in/"
+    }else if(input.value=="cbi"){
+        window.location.href ="https://www.centralbank.net.in/#/login"
+    }else if(input.value=="hdfc"){
+        window.location.href ="https://netbanking.hdfcbank.com/netbanking/"
+    }
 }
