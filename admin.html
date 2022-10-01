@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="brand" placeholder="brand">
+        <input type="text" id="price" placeholder="price">
+        <input type="text" id="color" placeholder="colour">
+        <input type="text" id="desc" placeholder="Description">
+        <input type="text" id="rating" placeholder="Rating">
+        <input type="text" id="type" placeholder="Type">
+        <div id="images"></div>
+        <button onclick="addImage()">Add Image</button>
+        
+    </div>
+    <div>
+        <button onclick="submit(value)" value="makeup">Submit at Makeup</button>
+        <button onclick="submit(value)" value="haircare">Submit at Haircare</button>
+        <button onclick="submit(value)" value="skincare">Submit at Skincare</button>
+        <button onclick="submit(value)" value="sanitizing">Submit at Sanitizing</button>
+        <button onclick="submit(value)" value="collection">Submit at Collection</button>
+
+    </div>
+</body>
+</html>
+<script>
+    let get=(id)=>{
+        return document.querySelector(id)
+    }
+
+    let category;
+    const url=`http://127.0.0.1:3000/`
+
+    // let url1=`http://127.0.0.1:3000/makeup`
+    // let url2=`http://127.0.0.1:3000/haircare`
+    // let url3=`http://127.0.0.1:3000/skincare`
+    // let url4=`http://127.0.0.1:3000/sanitizing`
+    // let url5=`http://127.0.0.1:3000/collection`
+
+    let count=0
+    let addImage=()=>{
+        count++
+        let img=document.createElement('input')
+        img.setAttribute('class',`image${count}`)
+        img.type="url"
+        img.style.display="block"
+        img.placeholder=`image ${count} url`
+        document.getElementById('images').append(img)
+    }
+
+    let submit=async (category)=>{
+
+        let productData={
+            title:get('#name').value,
+            brand:get('#brand').value,
+            price:+get('#price').value,
+            color:get('#color').value,
+            details:get('#desc').value,
+            type:get('#type').value,
+            rating:+get('#rating').value,
+            images:{
+                image:[]
+            }
+        }
+        
+        for(let i=1;i<=count;i++){
+            let img=get(`.image${i}`).value
+            productData.images.image.push(img)
+        }
+        productData=JSON.stringify(productData)
+        
+        let res=await fetch(`${url}${category}`,{
+            method:"POST",
+            body:productData,
+            headers:{
+                "Content-Type":"application/json"
+            }
+        })
+        console.log(productData)
+    }
+
+    
+
+</script>
