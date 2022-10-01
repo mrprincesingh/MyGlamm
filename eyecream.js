@@ -13,7 +13,7 @@ getdata()
     
     data.forEach(({title,brand,price,color,details,type,rating,images:{image},id})=>{
 
-      if(type=="EYE CREAM"){
+      if(type=="Eye-Cream"){
         let div = document.createElement("div")
         let div2 = document.createElement("div")
         div2.setAttribute("id", "tag")

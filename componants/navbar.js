@@ -24,8 +24,8 @@ let navbar=()=>{
        <input type="text"   placeholder= "Find Lipstick, Eyeliner, Makeup Tutorial, etc"> 
     </div>
     <div>
-        <a href="" ><i style="font-size:24px" class="fa">&#xf07a;</i></a>
-         <a href=""><i style='font-size:24px' class='fas'>&#xf406;</i></a> 
+        <a href="./ShopBag.html" ><i style="font-size:24px" class="fa">&#xf07a;</i></a>
+         <a href="./login.html"><i style='font-size:24px' class='fas'>&#xf406;</i></a> 
     </div>
 </div>
 
@@ -41,16 +41,16 @@ let navbar=()=>{
         </div> -->
     </div>
         <div id="makeup">
-            <a href="#">MAKEUP</a>
+            <a href="./makeup.html">MAKEUP</a>
             <div id="subMenu">
                 <ul>
                     <div class="categories">
                         <h3>LIPS</h3>
-                        <a href="#"> <p>Lipstick</p></a>
-                        <a href="#"> <p>Crayon Lipstick</p></a>
+                        <a href="./lipstick.html"> <p>Lipstick</p></a>
+                        <a href="./crayon.html"> <p>Crayon Lipstick</p></a>
                         <a href="#"> <p>Matte Lipstick</p></a>
                         <a href="#"> <p>Hi-Shine Lipstick</p></a>
-                        <a href="#"> <p>Liquid Lipstick</p></a>
+                        <a href="./liquid.html"> <p>Liquid Lipstick</p></a>
                         <a href="#"> <p>Lip Gloss</p></a>
                         <a href="#"> <p>Hi-Shine Lipgloss</p></a>
                         <a href="#"> <p>Lip Liner</p></a>
@@ -113,15 +113,15 @@ let navbar=()=>{
 
 
     <div id="haircare">
-        <a href="">HAIR CARE</a>
+        <a href="./haircare.html">HAIR CARE</a>
         <div id="subMenu">
             <ul>
                 
                 <div class="categories">
                     <h3>HAIR CARE</h3>
-                   <a href=""><p>Shampoo</p></a>
-                   <a href=""><p>Conditioner</p></a>
-                   <a href=""><p>Hair Oil</p></a>
+                   <a href="./shampoo.html"><p>Shampoo</p></a>
+                   <a href="./conditioner.html"><p>Conditioner</p></a>
+                   <a href="./hair.html"><p>Hair Oil</p></a>
                    <a href=""><p>Serum</p></a>
                    <a href=""><p>Hair Mask</p></a>
                    <a href=""><p>Combos</p></a>
@@ -155,13 +155,13 @@ let navbar=()=>{
     </div>
 
     <div id="skincare">
-        <a href="">SKINCARE</a>
+        <a href="./skincare.html">SKINCARE</a>
         <div id="subMenu">
             <ul>
                 <div class="categories">
-                    <a href=""><p>Moisturiser</p></a>
+                    <a href="./moisturizer.html"><p>Moisturiser</p></a>
                     <a href=""><p>Night Cream</p></a>
-                    <a href=""><p>Eye Cream</p></a>
+                    <a href="./eyecream.html"><p>Eye Cream</p></a>
                     <a href=""><p>Body lotion</p></a>
                     <a href=""><p>Serum</p></a>
                     <a href=""><p>Sunscreen</p></a>
@@ -179,15 +179,15 @@ let navbar=()=>{
     </div>
 
     <div id="sanitizing">
-        <a href="">SANITIZING CARE</a>
+        <a href="./sanitizer.html">SANITIZING CARE</a>
         <div id="subMenu">
             <ul>
                 <div class="categories">
                     <h3>SANITIZING CARE</h3>
-                    <a href=""><p>Sanitizing Wipes</p></a>
-                    <a href=""><p>Sanitizing Kits</p></a>
+                    <a href="./wipes.html"><p>Sanitizing Wipes</p></a>
+                    <a href="./sanitizerkits.html"><p>Sanitizing Kits</p></a>
                    <a href=""><p>Sanitizing Spray</p></a>
-                   <a href=""><p>Hand Sanitizer</p></a>
+                   <a href="./handsanitizer.html"><p>Hand Sanitizer</p></a>
                 </div>
                 <div class="categories">
                     <img src="https://files.myglamm.com/site-images/400x400/Germ-Shield_2.jpg" alt="">

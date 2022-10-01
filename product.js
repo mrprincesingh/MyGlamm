@@ -144,5 +144,7 @@ let cart=(data)=>{
     console.log(cartData)
     cartData= JSON.stringify(cartData);
     localStorage.setItem('cartData',cartData)
+    alert("Item Added to Cart")
+    
 }
 

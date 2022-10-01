@@ -1,9 +1,9 @@
 let footer=()=>{
     return `<div class="childf1">
     <div>
-       <a href="#"><h4>LIPS</h4></a>
-        <a href="#"> <p>Lipstick</p> </p></a>
-        <a href="#"> <p>Crayon <br> Lipstick</p></a>
+       <a href="./lipstick.html"><h4>LIPS</h4></a>
+        <a href="./lipstick.html"> <p>Lipstick</p> </p></a>
+        <a href="./crayon.html"> <p>Crayon <br> Lipstick</p></a>
         <a href="#"> <p>Matte Lipstick</p></a>
         <a href="#"> <p>Hi-Shine <br> Lipstick</p></a>
         <a href="#"> <p>Liquid Lipstick</p></a>
@@ -37,9 +37,9 @@ let footer=()=>{
         <a href="#"> <p>Makeup Brushes</p></a>
     </div>
     <div>
-         <a href="#"><h4>EYES</h4>
-        <a href="#"> <p>Eye Shadow</p></a>
-        <a href="#"> <p>Eyeliner</p></a>
+         <a href="./eyecream.html"><h4>EYES</h4>
+        <a href="./eyecream.html"> <p>Eye Shadow</p></a>
+        <a href="./eyecream.html"> <p>Eyeliner</p></a>
         <a href="#"> <p>Eyebrows</p></a>
         <a href="#"> <p>Glitter</p></a>
         <a href="#"> <p>Mascara</p></a>
@@ -54,10 +54,10 @@ let footer=()=>{
         <a href="#"> <p> Nail Lacquer</p></a>
     </div>
     <div>
-         <a href="#"><h4>SKINCARE</h4></a>
-         <a href=""><p>Moisturiser</p></a>
-         <a href=""><p>Night Cream</p></a>
-         <a href=""><p>Eye Cream</p></a>
+         <a href="./skincare.html"><h4>SKINCARE</h4></a>
+         <a href="./skincare.html"><p>Moisturiser</p></a>
+         <a href="./skincare.html"><p>Night Cream</p></a>
+         <a href="./skincare.html"><p>Eye Cream</p></a>
          <a href=""><p>Body lotion</p></a>
          <a href=""><p>Serum</p></a>
          <a href=""><p>Sunscreen</p></a>
@@ -80,7 +80,7 @@ let footer=()=>{
          <a href=""><p>Foot Cream</p></a>
     </div>
     <div>
-         <a href="#"><h4>SANITIZING CARE</h4></a>
+         <a href="./sanitizer.html"><h4>SANITIZING CARE</h4></a>
          <a href=""><p>Sanitizing <br> Wipes</p></a>
          <a href=""><p>Sanitizing Kits</p></a>
          <a href=""><p>Sanitizing <br> Spray</p></a>
