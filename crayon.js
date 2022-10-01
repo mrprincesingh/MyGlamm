@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/makeup"
+const url = "https://princeserver.herokuapp.com/makeup"
 
 
 
