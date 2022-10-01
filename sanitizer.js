@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/sanitizing"
+const url = "https://princeserver.herokuapp.com/sanitizing"
 
    let getdata = async ()=>{
     let res = await fetch(`${url}`)
