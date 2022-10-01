@@ -1,0 +1,467 @@
+#navbar{
+background-color: #ffff;
+width: 100%;
+position: fixed;
+top: 0px;
+z-index: 1;
+}
+.navchild1{
+    width: 100%;
+    display: flex;
+    background-color: #fee8e8;
+    justify-content: space-between;
+    
+}
+.navchild1 div{
+    display: flex;
+}
+.navchild1 div a{
+    text-decoration: none;
+    color: #000000;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.navchild1 div svg{
+   margin: 10px;
+   padding-left: 20px;
+
+}
+.navchild1 div:last-child img{
+    width: 12%;
+    margin: 5px;
+}
+
+.navchild2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.navchild2 div{
+    display: flex;
+}
+.navchild2 div img{
+    margin-right: 50px;
+   
+}
+
+.navchild2 div i{
+    margin-right: 60px;
+    
+}
+.navchild2 div input{
+    width: 750px;
+    height: 50px;
+    /* background: #f9f5f5; */
+    padding-left: 20px;
+    border-radius:5px;
+    border-color: #c8c3c3;;
+    opacity: 0.7;
+    font-size: 18px;
+    color: #202020;
+    font-weight: 600;
+    box-shadow: rgba(239, 239, 242, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+}
+.navchild2 div input::placeholder{
+    text-align:center;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+
+
+#navchild3 {
+    /* border: 1px solid #b9b9b9; */
+    font-size: 17px;
+    display: flex;
+    justify-content: space-evenly;
+    gap:45px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.categories a p{
+    font-size: 14px;
+}
+#home:hover{
+    border-bottom: 3px solid #ff9797;
+}
+#home a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+}
+#makeup:hover {
+    border-bottom: 3px solid #ff9797;
+}
+
+#makeup:hover #subMenu {
+    /* border: 1px solid red; */
+    width: 94%;
+    display: block;
+    position: absolute;
+    background-color: white;
+    top:177px;
+    left: 60px;
+    z-index: 1;
+}
+
+#makeup a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    /* border-bottom: 2px solid black; */
+}
+
+#makeup .categories h3 {
+    color:#ff9797;
+    font-size: 16px;
+    
+    /* border-bottom: 2px solid black; */
+}
+
+#makeup .categories a p:hover{
+    text-decoration: underline 3px solid #ff9797;
+}
+
+/* makeup end */
+#haircare:hover {
+    border-bottom: 3px solid #ff9797;
+}
+
+#haircare:hover #subMenu {
+    /* border: 1px solid red; */
+    display: block;
+    width: 94%;
+    position: absolute;
+    background-color: white;
+    top:177px;
+    left: 60px;
+    z-index: 1;
+}
+
+#haircare a {
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    font-weight: 600;
+}
+#haircare .categories:nth-child(1){
+ width: 30%;
+}
+#haircare .categories:nth-child(2){
+    border: 1px solid #e6e0e0;
+    margin-left: 230px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    width: 40%;
+}
+#haircare .categories:nth-child(2)>img{
+    margin-left: 40px;
+}
+#haircare .categories:nth-child(3){
+    border: 1px solid #e6e0e0;
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    width: 40%;
+}
+#haircare .categories:nth-child(3)>img{
+    margin-left: 40px;
+}
+#haircare .categories:nth-child(4){
+    border: 1px solid #e6e0e0;
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    width: 40%;
+}
+#haircare .categories:nth-child(4)>img{
+    margin-left: 40px;
+}
+#haircare .categories:nth-child(5){
+    border: 1px solid #e6e0e0;
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    width: 40%;
+    
+}
+#haircare .categories:nth-child(5)>img{
+    margin-left: 40px;
+}
+
+#haircare .categories h3 {
+    color:#ff9797;
+    font-size: 16px;
+}
+
+#haircare .categories a p:hover{
+    text-decoration: underline 3px solid #ff9797;
+}
+
+/* haircare end here */
+#skincare:hover {
+    border-bottom: 3px solid #ff9797;
+}
+
+#skincare:hover #subMenu {
+    /* border: 1px solid red; */
+    width: 94%;
+    display: block;
+    position: absolute;
+    background-color: white;
+    top:177px;
+    left: 60px;
+    z-index: 1;
+}
+
+#skincare a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+#skincare .categories a p:hover{
+    text-decoration: underline 3px solid #ff9797;
+}
+#skincare .categories h3 {
+    color:#ff9797;
+    font-size: 14px;
+}
+
+/* skincare ends here */
+#sanitizing:hover {
+    border-bottom: 3px solid #ff9797;
+}
+
+#sanitizing:hover #subMenu {
+    /* border: 1px solid red; */
+    width: 94%;
+    display: block;
+    position: absolute;
+    background-color: white;
+    top:177px;
+    left: 60px;
+    z-index: 1;
+}
+
+#sanitizing a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#sanitizing .categories h3 {
+    color:#ff9797;
+    font-size: 16px;
+}
+
+#sanitizing .categories a p:hover{
+    text-decoration: underline 3px solid #ff9797;;
+}
+#sanitizing .categories:first-child{
+    width: 50%;
+}
+#sanitizing .categories:last-child{
+    margin-left: 990px;
+    border: 1px solid #e6e0e0;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    width: 30%;
+}
+#sanitizing .categories:last-child img{
+    margin-left: 20px;
+    width: 90%;
+}
+/* sanitizing ends here */
+#collection:hover {
+    border-bottom: 3px solid #ff9797;
+}
+
+#collection:hover #subMenu {
+    /* border: 1px solid red; */
+    width: 94%;
+    display: block;
+    position: absolute;
+    background-color: white;
+    top:177px;
+    left: 60px;
+    z-index: 1;
+}
+
+#collection a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+#collection a p:hover{
+    text-decoration:underline 3px solid #ff9797;
+}
+
+#collection .categories h3 {
+    color: #ff9797;
+    font-size: 16px;
+}
+#collection .categories:first-child{
+    width: 35%;
+}
+
+#collection .categories:nth-child(2){
+    border: 1px solid #e6e0e0;
+    margin-left: 230px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    width: 40%;
+}
+#collection .categories:nth-child(2)>img{
+    margin-left: 40px;
+}
+#collection .categories:nth-child(3){
+    border: 1px solid #e6e0e0;
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    width: 40%;
+}
+#collection .categories:nth-child(3)>img{
+    margin-left: 40px;
+}
+#collection .categories:nth-child(4){
+    border: 1px solid #e6e0e0;
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    width: 40%;
+}
+#collection .categories:nth-child(4)>img{
+    margin-left: 40px;
+}
+#collection .categories:nth-child(5){
+    border: 1px solid #e6e0e0;
+    margin-left: 10px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    width: 40%;
+    
+}
+#collection .categories:nth-child(5)>img{
+    margin-left: 40px;
+}
+/* collection ends here */
+#reward:hover {
+    border-bottom: 3px solid #ff9797;
+}
+
+#reward a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+/* reward ends here */
+#studio:hover {
+    border-bottom: 3px solid #ff9797;
+}
+
+#studio:hover #subMenu {
+    /* border: 1px solid red; */
+    width: 94%;
+    display: block;
+    position: absolute;
+    background-color: white;
+    top:177px;
+    left: 60px;
+    z-index: 1;
+}
+
+#studio a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#studio .categories h3 {
+    color: #ff9797;
+    font-size: 16px;
+}
+
+/* studio ends here */
+#offers:hover {
+    border-bottom: 3px solid #ff9797;
+}
+
+
+
+#offers a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+/* offers ends here */
+
+#subMenu {
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+#subMenu ul {
+    display: flex;
+    padding: 0px 10px;
+}
+
+#subMenu ul>div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px 20px;
+
+}
+
+.categories {
+    /* border: 1px solid red; */
+    text-align: left;
+    font-size: 12px;
+    color: gray;
+    font-weight: lighter;
+    display: flex;
+}
+
+.categories p,
+h3 {
+    cursor: pointer;
+    margin: 5px 0px;
+}
+
+.categories p:hover {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.categories img {
+    width: 70%;
+    height: 120%;
+}
+
