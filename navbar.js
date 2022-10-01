@@ -1,4 +1,6 @@
+
  function navbar(){
+
     return `
        <ul class="bullet">
         <li class="first">
@@ -8,10 +10,12 @@
             <span class="text"><a href="Address.html"><b>SELECT ADDRESS</b></a></span>
         </li>
         <li class="first">
-            <span class="text"><a href=""><b>CHECKOUT</b></a></span>
+
+            <span class="text"><a href="checkout.html"><b>CHECKOUT</b></a></span>
         </li>
         <li class="first">
-            <span class="text"><a href=""><b>PAYMENT</b></a></span>
+            <span class="text"><a href="payment.html"><b>PAYMENT</b></a></span>
+
         </li>
        </ul>  
        <div id="logo2">

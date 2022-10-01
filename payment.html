@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="./payment.css">
+    
+</head>
+<body>
+    <div id="WholeNavbar">
+        <div class="logo"><a href="#"><img src="https://files.myglamm.com/site-images/original/MyGlamm-Logo_1.jpg"></a></div>
+        <div id="navbar">
+    </div>
+    <h2>Payment</h2>
+    <div id="payment">
+        <div id="method">
+            <div>
+                <button onclick="upi()">
+                    <img class="imgPay" src="https://files.myglamm.com/images/static/upi.png" alt="UPI Image">
+                    Google Pay / PhonePe / UPI</button>
+            </div>
+            <div>
+                <button onclick="net()">
+                
+                    <img class="imgPay" src="https://imgs.search.brave.com/SzCr_GEBQzD9hPsRhrOQACFpNAvfiNbHDmf1oLOFIXQ/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5T/N0FBa1ZxU2Nqa295/N3FtaDZUcFBBSGFI/YSZwaWQ9QXBp" alt="NetBanking Img">
+                    Net Banking</button>
+            </div>
+            <div>
+                <button onclick="card()">
+                    <img class="imgPay" src="https://imgs.search.brave.com/rtWCVQfxxVoPiJIOr9xD60cuQ2Cw_QzpZfQpzCzEAlM/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5B/ZHMtLTBfckN5T3Vw/NThjUHJJSHhRSGFI/YSZwaWQ9QXBp" alt="Card Img"> 
+                    Credit or Debit Card</button>
+            </div>
+            <!-- <div>
+                <button onclick="wallet()">
+                    <img class="imgPay" src="https://imgs.search.brave.com/G159YRHT915OTs5pxDckeR4hskae5H0YzUQzAUmOmN0/rs:fit:464:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5u/dmY5WnJ3Y2x0N2s2/alRxZDV3aFZRSGFI/ayZwaWQ9QXBp" alt="Wallet Img">
+                    Wallets</button>
+            </div> -->
+            <div>
+                <button onclick="cash()">
+                    <img class="imgPay" src="https://imgs.search.brave.com/FwyNHnQx2w0Z4JEnKnrkFQlBOa2a1nXI2WQfPkOGKMU/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5S/cmRUTnllVFhZeUpC/MGw5YnAzZXhRSGFI/YSZwaWQ9QXBp" alt="">
+                    Cash On Delivery</button>
+            </div>
+        </div>
+        <!-- <div id="paymentDetails">
+            <div id="payableAmount">
+                <h2>AMOUNT PAYABLE</h2>
+                <h2>0</h2>
+
+            </div>
+            <p id="textP">Flat 5% OFF on UPI orders of ₹499 and above.</p>
+
+            <div id="upi">
+                <input type="text" id="upiInput" placeholder="Enter your UPI ID">
+                <div id="request">
+                    <button >Request</button>
+                </div>
+            </div>
+        </div> -->
+        <div id="paymentDetails">
+            <div id="payableAmount">
+                <h2>AMOUNT PAYABLE</h2>
+                <h2 id="amount"></h2>
+
+            </div>
+            <p id="textP">Flat 5% OFF on UPI orders of ₹499 and above.</p>
+
+            <div id="upi">
+                <div id="inp">
+                     <!-- <input type="text" id="upiInput" placeholder="Enter your UPI ID"> -->
+                <!-- <select name="" id="upiInput">
+                    <option value="-">CHOOSE YOUR BANK</option>
+                    <option value="axis">AXIS BANK</option>
+                    <option value="boi">BANK OF INDIA</option>
+                    <option value="cbi">CENTRAL BANK OF INDIA</option>
+                    <option value="hdfc">HDFC BANK</option>
+
+                </select> -->
+                <input style="height: 70px;" type="text" id="upiInput" placeholder="Enter your UPI ID">
+                
+                </div>
+                <div id="buttonAppend">
+                    <button class="buttonAppend">REQUEST</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./payment.js"></script>
+<script type="module">
+    import navbar from "./navbar.js"
+    let x = document.getElementById("navbar");
+    x.innerHTML = navbar();
+</script>
