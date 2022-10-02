@@ -360,7 +360,7 @@
        </div>
        <div  id="Aline2">
            <p>ENTER OTP SENT ON</p>
-           <p id="Anum">+91 9306204305</p>
+           <p id="Anum">Your No.</p>
        </div>
        <div id="Aotp">
            <input type="text" id="Abox1" placeholder=""/>
@@ -676,6 +676,7 @@ let login = false;
         name:document.getElementById("Aname").value,
         email:document.getElementById("Aemail").value
     }
+    alert('Login Successful!')
     // console.log(data)
     localStorage.setItem('user',JSON.stringify(data))
     window.location.href = "./index.html";

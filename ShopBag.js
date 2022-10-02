@@ -342,7 +342,7 @@
 let cartData =JSON.parse(localStorage.getItem("cartData"))|| []
 console.log(cartData) 
 
- 
+let login = JSON.parse(localStorage.getItem('login'))||false
 let a; 
  
 let subTotal=0; 
@@ -500,11 +500,18 @@ document.getElementById("checkoutbtn").addEventListener("click",checkoutfun);
 
 
 function checkoutfun() {
+  if(login ===true){
+    
+  
   if(Address_Data.length==0){
     window.location.href="./Address.html"
   }else if(Address_Data.length>0){
     window.location.href="./checkout.html"
   }
+}else if(login===false){
+  alert('Please Login First')
+  window.location.href="./index.html"
+}
 }
 
 
