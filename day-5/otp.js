@@ -20,6 +20,6 @@ if(obj.name == "" || obj.email == "" ){
  signupLS.push(obj)
  localStorage.setItem("signup",JSON.stringify(signupLS))
  alert("Signup Sucessfullly");
- window.location.href="index.html"
+ window.location.href="login.html"
 }
 })
