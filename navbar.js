@@ -21,7 +21,7 @@
        <div id="logo2">
         <a href=""><img src="https://files.myglamm.com/site-images/original/no-user-yellow.png"  alt=""></a> 
         <select name="" id="">
-            <option value="">User</option>
+            <option value="user">User</option>
             <option value="">My profile</option>
             <option value="">My Orders</option>
             <option value="">My Dashboard</option>

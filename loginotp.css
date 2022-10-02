@@ -1,0 +1,102 @@
+#create_popup{
+    background-color: white;
+    height: 320px;
+    width:500px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding-bottom: 50px;
+    position: fixed;
+    left: 30%;
+    top: -120%;
+    transition: all 1s;
+}
+
+#maindiv{
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+}
+#line1{
+
+    text-align: center;
+    margin-top:40px;
+}
+#line2{
+    display:grid;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    gap:5px
+}
+#num{
+    border-bottom: 1px solid;  
+}
+
+#otp{
+    
+    margin-left:44%;
+    margin-top:30px;
+} 
+#box1{
+    height: 30px;
+    width:30px;
+    font-size: 20px;
+    border-radius: 100%;
+    border:none; 
+     background-color: rgb(235, 225, 225); 
+    /* border:1px solid; */
+}
+#box2{
+    height: 30px;
+    width:30px;
+    font-size: 20px;
+    /* border:1px solid; */
+    border-radius: 100%;
+    background-color: rgb(235, 225, 225); 
+    border:none; 
+
+}
+
+#box3{
+    height: 30px;
+    width:30px;
+    font-size: 20px;
+    /* border:1px solid; */
+    border-radius: 100%;
+    background-color: rgb(235, 225, 225); 
+    border:none; 
+
+}
+
+#box4{
+    height: 30px;
+    width:30px;
+    font-size: 20px;
+    /* border:1px solid; */
+    border-radius: 100%;
+    background-color: rgb(235, 225, 225); 
+    border:none; 
+
+
+}
+#dumy{
+    display:grid;
+    justify-content: center;
+    margin:auto;
+}
+#btn{
+    margin-top:50px;
+    margin-left:32%;
+    height:50px;
+    width: 500px;
+    border-radius: 10px;
+    border:none;
+    color:white;
+    background-color: gray;
+    font-size:17px;
+    font-weight: bold;
+};
+
+#send{
+    margin-left: 50px;
+}

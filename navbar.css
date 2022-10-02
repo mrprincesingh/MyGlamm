@@ -5,6 +5,11 @@ position: fixed;
 top: 0px;
 z-index: 1;
 }
+#princepop{
+    border: none;
+    background-color: #fff;
+    margin-top: -35px;
+}
 .navchild1{
     width: 100%;
     display: flex;

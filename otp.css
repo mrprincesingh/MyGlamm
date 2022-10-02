@@ -1,0 +1,143 @@
+#otppopup{
+    border-radius: 20px;
+    background-color: white;
+    height: auto;
+    width:40%;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding-bottom: 50px;
+    position: fixed;
+    left: 30%;
+    top: -100%;
+    transition: all 1s;
+    z-index: 1;
+  
+   
+}
+
+#Aline1{
+    text-align: center;
+    margin-top:40px;
+}
+#Aline2{
+    display:grid;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    gap:5px
+}
+#Anum{
+    border-bottom: 1px solid;  
+}
+
+#Aotp{
+    
+    margin-left:40%;
+    margin-top:30px;
+} 
+#Abox1{
+    height: 30px;
+    width:30px;
+    font-size: 20px;
+    border-radius: 100%;
+    border:none; 
+     background-color: rgb(235, 225, 225); 
+     text-align: center;
+    /* border:1px solid; */
+}
+#Abox2{
+    text-align: center;
+    height: 30px;
+    width:30px;
+    font-size: 20px;
+    /* border:1px solid; */
+    border-radius: 100%;
+    background-color: rgb(235, 225, 225); 
+    border:none; 
+
+}
+
+#Abox3{
+    text-align: center;
+    height: 30px;
+    width:30px;
+    font-size: 20px;
+    /* border:1px solid; */
+    border-radius: 100%;
+    background-color: rgb(235, 225, 225); 
+    border:none; 
+
+}
+
+#Abox4{
+    text-align: center;
+    height: 30px;
+    width:30px;
+    font-size: 20px;
+    /* border:1px solid; */
+    border-radius: 100%;
+    background-color: rgb(235, 225, 225); 
+    border:none; 
+
+
+}
+#Aline3{
+    /* display:grid; */
+    display:flex;
+    /* margin-top:40px; */
+    /* margin-left:30%; */
+    /* gap:250px; */
+    width: 100%;
+    justify-content: space-around;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#Amain{
+    width: 90%;
+   /* margin-left:30%;  */
+   font-size: 20px;
+    margin: auto;
+}
+#Amain form{
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+}
+#Aemail{
+    margin-left:100px;
+    border:none;
+    border-bottom: 1px solid;
+    font-size: 17px;
+}
+#Aname{
+    border:none;
+    border-bottom: 1px solid;
+    font-size: 17px;
+}
+
+#Aline4{
+    margin-top:40px;
+   /* margin-left:30%;  */
+   font-weight: bold;
+}
+#Averify{
+    /* margin-top:px; */
+    margin-left:10%;
+    height:50px;
+    width: 80%;
+    border-radius: 10px;
+    border:none;
+    color:white;
+    background-color: gray;
+    font-size:17px;
+    font-weight: bold;
+}
+.drop-button{
+    color:black;
+    padding:10px;
+    font-size: 16px;
+    border:none;
+    background-color: white;;
+
+}

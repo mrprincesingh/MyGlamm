@@ -1,0 +1,111 @@
+#sabsemain{
+    border-radius: 20px;
+    background-color: white;
+    height: auto;
+    width:40%;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding-bottom: 50px;
+    position: fixed;
+    left: 30%;
+    top: -120%;
+    transition: all 1s;
+    z-index: 1;
+  
+   
+}
+
+#maindiv{
+    width: 100%;
+    margin:auto;  
+}
+
+#line{
+    /* text-align: center; */
+    margin-left:27%;
+    margin-top: 40px;
+}
+#img{
+    display:grid;
+    /* justify-content: center; */
+    margin-left:27%;
+    margin-top:40px;
+}
+#line2{
+    margin-left:25%;
+    margin-top: 40px;
+    border-bottom: 1px solid;
+    width:150px;
+}
+#country{
+    display:grid;
+    height:60px;
+    width:100px;
+    border:1px solid;
+    margin-top:40px;
+    margin-left:20%;
+    display:flex;
+    gap:15px;
+    border-radius: 10px;
+}
+#country>img{
+    height:25%;
+    border-radius: 80%;
+    padding-top: 22px;
+}
+#country>p{
+    padding-top:3px;
+    font-weight: bold;
+}
+#large{
+    display:flex;
+    width:100%
+}
+#number12{
+    display:grid;
+    height:60px;
+    width:300px;
+    margin-top:40px;
+    margin-left:40px;
+    border-radius: 10px;
+    border:1px solid
+}
+#btn{
+    margin-top:40px;
+    margin-left:20%;
+    height:50px;
+    width: 450px;
+    border-radius: 10px;
+    border:none;
+    color:white;
+    background-color: gray;
+    font-size:17px;
+    font-weight: bold;
+}
+#line3{
+    margin-top:40px;
+    margin-left:32%;
+}
+#large2{
+    margin-left:23%;
+   
+}
+#facebook{
+    height:40px;
+    width:180px;
+    background-color: white;
+    border:1px solid;
+    font-weight: bold;
+}
+#google{
+    height:40px;
+    width:180px;
+    background-color: white;
+    border:1px solid;
+    font-weight: bold;
+}
+#line4{
+    display:flex;
+    margin-left:24%;
+    
+}
