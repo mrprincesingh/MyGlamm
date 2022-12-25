@@ -41,7 +41,7 @@ z-index: 1;
     display: flex;
     justify-content: space-between;
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .navchild2 div{
     display: flex;
