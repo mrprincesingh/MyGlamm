@@ -1,17 +1,379 @@
-const url = "https://princeserver.herokuapp.com/haircare"
+// const url = "https://princeserver.herokuapp.com/haircare"
 
-   let getdata = async ()=>{
-    let res = await fetch(`${url}`)
-    res = await res.json()
-    render(res)
-    console.log(res)
-   }
-getdata()
+//    let getdata = async ()=>{
+//     let res = await fetch(`${url}`)
+//     res = await res.json()
+//     render(res)
+//     console.log(res)
+//    }
+// getdata()
+let haircare = [
+  {
+    "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+    "brand": "Sheet Mask For a Post-sun Glow Up",
+    "price": "84",
+    "color": "Yellow",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "SHAMPOO",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Artboard-1-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 1
+  },
+  {
+    "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+    "brand": "Sheet Mask For a Post-sun Glow Up",
+    "price": "84",
+    "color": "Yellow",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "SHAMPOO",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Artboard-1-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 2
+  },
+  {
+    "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+    "brand": "Sheet Mask For a Post-sun Glow Up",
+    "price": "84",
+    "color": "Yellow",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "SHAMPOO",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Artboard-1-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 3
+  },
+  {
+    "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+    "brand": "Sheet Mask For a Post-sun Glow Up",
+    "price": "84",
+    "color": "Yellow",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "SHAMPOO",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Artboard-1-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 4
+  },
+  {
+    "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+    "brand": "Sheet Mask For a Post-sun Glow Up",
+    "price": "84",
+    "color": "Yellow",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "SHAMPOO",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Artboard-1-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 5
+  },
+  {
+    "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+    "brand": "Sheet Mask For a Post-sun Glow Up",
+    "price": "84",
+    "color": "Yellow",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "SHAMPOO",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/SHP-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 6
+  },
+  {
+    "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+    "brand": "Sheet Mask For a Post-sun Glow Up",
+    "price": "84",
+    "color": "Yellow",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "SHAMPOO",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Passion-Fruit--Rosemary-Shampoo.jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 7
+  },
+  {
+    "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+    "brand": "Sheet Mask For a Post-sun Glow Up",
+    "price": "84",
+    "color": "Yellow",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "SHAMPOO",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/SMP-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 8
+  },
+  {
+    "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+    "brand": "Sheet Mask For a Post-sun Glow Up",
+    "price": "84",
+    "color": "Yellow",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "SHAMPOO",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/SMP-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 9
+  },
+  {
+    "title": "POPXO DE-TAN JAM INSTANT BRIGHTENING YOGHURT SHEET MASK",
+    "brand": "Sheet Mask For a Post-sun Glow Up",
+    "price": "84",
+    "color": "Yellow",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "SHAMPOO",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/SMP-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 10
+  },
+  {
+    "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+    "brand": "For Hair Fall Control",
+    "price": "179",
+    "color": "green",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "HAIR CONDITIONER",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Artboard-1-(2).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 11
+  },
+  {
+    "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+    "brand": "For Hair Fall Control",
+    "price": "179",
+    "color": "green",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "HAIR CONDITIONER",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Passion-Fruit---Olive-Conditioner-1_1.jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 12
+  },
+  {
+    "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+    "brand": "For Hair Fall Control",
+    "price": "179",
+    "color": "green",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "HAIR CONDITIONER",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Product-1-2.jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 13
+  },
+  {
+    "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+    "brand": "For Hair Fall Control",
+    "price": "179",
+    "color": "blue",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "HAIR OIL",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Artboard-1_27.jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 14
+  },
+  {
+    "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+    "brand": "For Hair Fall Control",
+    "price": "179",
+    "color": "blue",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "HAIR OIL",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Oil-Product_4.jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 15
+  },
+  {
+    "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+    "brand": "For Hair Fall Control",
+    "price": "179",
+    "color": "blue",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "HAIR OIL",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Oil-Product_4.jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 16
+  },
+  {
+    "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+    "brand": "For Hair Fall Control",
+    "price": "179",
+    "color": "blue",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "HAIR OIL",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Oil-Product_4.jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 17
+  },
+  {
+    "title": "MYGLAMM SUPERFOODS ONION & MORINGA CONDITIONER - 200ML",
+    "brand": "For Hair Fall Control",
+    "price": "179",
+    "color": "blue",
+    "details": "After an extra-savage day in the sun, your skin needs some de-tanning and extra TLC. Enter the POPxo De-Tan Jam Instant Brightening Yoghurt Sheet Mask that’s the all-star, 20-minute miracle for brighter, renewed skin. Packed with skin-loving ingredients like Apricot, Yoghurt, Niacinamide, Hyaluronic Acid, Glycerin, Agarwood and Sandalwood, there’s nothing this OG sheet mask can’t do. It reduces pigmentation, dullness and dark spots caused by a day in the sun and restores moisture to your skin. The Vitamin E found in Apricots brings back lost elasticity and reduces wrinkles. It brightens and tones skin for a healthy glow - all in a biodegradable sheet with a refreshing Apricot scent that’ll have you hyped for mask-time. Get ready to enjoy long days in the sun with the best after-sun ritual to look forward to!",
+    "type": "HAIR OIL",
+    "rating": "4.5",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Oil-Product_4.jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-2-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-3-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-4-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Artboard-5-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Superfood-Onion-&-Moringa-Hair-Oil-Combo-(1).jpg"
+      ]
+    },
+    "id": 18
+  }
+]
   let container  = document.getElementById("container")
   
-  let render  = (data)=>{
+  let render  = (haircare)=>{
     
-    data.forEach(({title,brand,price,color,details,type,rating,images:{image},id})=>{
+    haircare.forEach(({title,brand,price,color,details,type,rating,images:{image},id})=>{
         let div = document.createElement("div")
         div.onclick = ()=>{
             selectfunc(title,brand,price,color,details,type,rating,image,id)
@@ -41,7 +403,7 @@ getdata()
   
   let selectfunc = (title,brand,price,color,details,type,rating,image,id) =>{
 
-     let data = {
+     let haircare = {
       title: title,
       brand: brand,
       price: price,
@@ -54,6 +416,8 @@ getdata()
       id: id,
      }
   
-    localStorage.setItem("product_selected" , JSON.stringify(data));
+    localStorage.setItem("product_selected" , JSON.stringify(haircare));
     window.location.href = "product.html"
   }
+
+  render(haircare)

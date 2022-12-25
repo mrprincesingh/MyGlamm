@@ -1,17 +1,247 @@
-const url = "https://princeserver.herokuapp.com/sanitizing"
+// const url = "https://princeserver.herokuapp.com/sanitizing"
 
-   let getdata = async ()=>{
-    let res = await fetch(`${url}`)
-    res = await res.json()
-    render(res)
-    console.log(res)
-   }
-getdata()
+//    let getdata = async ()=>{
+//     let res = await fetch(`${url}`)
+//     res = await res.json()
+//     render(res)
+//     console.log(res)
+//    }
+// getdata()
+let san = [
+  {
+    "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+    "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+    "price": "52",
+    "color": "white",
+    "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+    "type": "SANITIZING WIPES",
+    "rating": "5.0",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/5-sanitizing-wipes.jpg",
+        "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg",
+        "https://files.myglamm.com/site-images/800x800/WPE-(2).jpg",
+        "https://files.myglamm.com/site-images/800x800/eycrd-(6).jpg",
+        "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg"
+      ]
+    },
+    "id": 1
+  },
+  {
+    "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+    "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+    "price": "52",
+    "color": "white",
+    "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+    "type": "SANITIZING WIPES",
+    "rating": "5.0",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/5-sanitizing-wipes.jpg",
+        "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg",
+        "https://files.myglamm.com/site-images/800x800/WPE-(2).jpg",
+        "https://files.myglamm.com/site-images/800x800/eycrd-(6).jpg",
+        "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg"
+      ]
+    },
+    "id": 2
+  },
+  {
+    "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+    "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+    "price": "52",
+    "color": "white",
+    "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+    "type": "SANITIZING WIPES",
+    "rating": "5.0",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/5-sanitizing-wipes.jpg",
+        "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg",
+        "https://files.myglamm.com/site-images/800x800/WPE-(2).jpg",
+        "https://files.myglamm.com/site-images/800x800/eycrd-(6).jpg",
+        "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg"
+      ]
+    },
+    "id": 3
+  },
+  {
+    "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+    "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+    "price": "52",
+    "color": "white",
+    "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+    "type": "SANITIZING WIPES",
+    "rating": "5.0",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/5-sanitizing-wipes.jpg",
+        "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg",
+        "https://files.myglamm.com/site-images/800x800/WPE-(2).jpg",
+        "https://files.myglamm.com/site-images/800x800/eycrd-(6).jpg",
+        "https://files.myglamm.com/site-images/800x800/WPE-(3).jpg"
+      ]
+    },
+    "id": 4
+  },
+  {
+    "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+    "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+    "price": "200",
+    "color": "white",
+    "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+    "type": "HAND-SANITIZER",
+    "rating": "5.0",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/25-Antimicrobial-Sanitizing-Hand-Rub-Post-1-Sanitizing-Spray.jpg",
+        "https://files.myglamm.com/site-images/800x800/Benefits-Final-Antimicrobial-Sanitizing-Hand-Rub-25-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/How-To-Use-Final-Antimicrobial-Sanitizing-Hand-Rub-100ml.jpg",
+        "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg",
+        "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg"
+      ]
+    },
+    "id": 5
+  },
+  {
+    "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+    "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+    "price": "220",
+    "color": "white",
+    "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+    "type": "HAND-SANITIZER",
+    "rating": "5.0",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/25-Antimicrobial-Sanitizing-Hand-Rub-Post-1-Sanitizing-Spray.jpg",
+        "https://files.myglamm.com/site-images/800x800/Benefits-Final-Antimicrobial-Sanitizing-Hand-Rub-25-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/How-To-Use-Final-Antimicrobial-Sanitizing-Hand-Rub-100ml.jpg",
+        "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg",
+        "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg"
+      ]
+    },
+    "id": 6
+  },
+  {
+    "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+    "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+    "price": "520",
+    "color": "white",
+    "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+    "type": "HAND-SANITIZER",
+    "rating": "5.0",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/25-Antimicrobial-Sanitizing-Hand-Rub-Post-1-Sanitizing-Spray.jpg",
+        "https://files.myglamm.com/site-images/800x800/Benefits-Final-Antimicrobial-Sanitizing-Hand-Rub-25-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/How-To-Use-Final-Antimicrobial-Sanitizing-Hand-Rub-100ml.jpg",
+        "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg",
+        "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg"
+      ]
+    },
+    "id": 7
+  },
+  {
+    "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+    "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+    "price": "550",
+    "color": "white",
+    "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+    "type": "HAND-SANITIZER",
+    "rating": "5.0",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/25-Antimicrobial-Sanitizing-Hand-Rub-Post-1-Sanitizing-Spray.jpg",
+        "https://files.myglamm.com/site-images/800x800/Benefits-Final-Antimicrobial-Sanitizing-Hand-Rub-25-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/How-To-Use-Final-Antimicrobial-Sanitizing-Hand-Rub-100ml.jpg",
+        "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg",
+        "https://files.myglamm.com/site-images/800x800/24-27-GroupShot-(2).jpg"
+      ]
+    },
+    "id": 8
+  },
+  {
+    "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+    "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+    "price": "450",
+    "color": "white",
+    "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+    "type": "SANITIZING-KITS",
+    "rating": "5.0",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Cleansing-towels_1.jpg",
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg"
+      ]
+    },
+    "id": 9
+  },
+  {
+    "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+    "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+    "price": "400",
+    "color": "white",
+    "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+    "type": "SANITIZING-KITS",
+    "rating": "5.0",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Cleansing-towels_1.jpg",
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg"
+      ]
+    },
+    "id": 10
+  },
+  {
+    "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+    "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+    "price": "230",
+    "color": "white",
+    "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+    "type": "SANITIZING-KITS",
+    "rating": "5.0",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Cleansing-towels_1.jpg",
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg"
+      ]
+    },
+    "id": 11
+  },
+  {
+    "title": "MYGLAMM WIPEOUT SANITIZING WIPES - 5N",
+    "brand": "Eucalyptus & Lemon Wipes That Sanitize & Moisturize",
+    "price": "280",
+    "color": "white",
+    "details": "Manish Malhotra Amla Moisturising Gel is made with pure, natural ingredients; a recipe that has been passed on by generations of Indian women to achieve radiant, younger looking skin. It is blended with aloe vera juice and amla to naturally rejuvenate the skin and replenish lost moisture. They also prevent wrinkles and fine lines, while toning the skin and giving it a youthful glow. This moisturiser is further infused with almond oil and mint. Both are antioxidant rich; help improve uneven skin tone, reduce inflammation and puffiness, while calming the skin.",
+    "type": "SANITIZING-KITS",
+    "rating": "5.0",
+    "images": {
+      "image": [
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Cleansing-towels_1.jpg",
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg",
+        "https://files.myglamm.com/site-images/800x800/Sanitizing-spray-(1).jpg"
+      ]
+    },
+    "id": 12
+  }
+]
   let container  = document.getElementById("container")
   
-  let render  = (data)=>{
+  let render  = (san)=>{
     
-    data.forEach(({title,brand,price,color,details,type,rating,images:{image},id})=>{
+    san.forEach(({title,brand,price,color,details,type,rating,images:{image},id})=>{
 
       if(type=="SANITIZING WIPES"){
         let div = document.createElement("div")
@@ -55,7 +285,7 @@ getdata()
   
   let selectfunc = (title,brand,price,color,details,type,rating,image,id) =>{
 
-     let data = {
+     let san = {
       title: title,
       brand: brand,
       price: price,
@@ -68,6 +298,7 @@ getdata()
       id: id,
      }
   
-    localStorage.setItem("product_selected" , JSON.stringify(data));
+    localStorage.setItem("product_selected" , JSON.stringify(san));
     window.location.href = "product.html"
   }
+  render(san)
