@@ -2,7 +2,7 @@
 https://www.myglamm.com/
 
 
-Manager : Mayur Wagh
+Manager name : Mayur Wagh
 
 Team lead :fw19_0413 - Prince Singh
 
